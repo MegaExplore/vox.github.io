@@ -1,0 +1,51 @@
+{
+    "level": "A1",
+    "section": "vocabulary",
+    "stage": 1,
+    "exercises": [
+        {
+            "id": "ex01_vocab",
+            "type": "multiple_choice",
+            "question": "What is 'Dog' in Spanish?",
+            "options": [
+                "Perro",
+                "Gato",
+                "Pájaro",
+                "Casa"
+            ],
+            "answer": "Perro",
+            "voiceLang": "es-ES",
+            "stage": 1
+        },
+        {
+            "id": "ex02_grammar",
+            "type": "tap_fill",
+            "question": "Yo ___ (have) un perro.",
+            "options": [
+                "tengo",
+                "tienes",
+                "tiene"
+            ],
+            "answer": "tengo",
+            "stage": 1
+        },
+        {
+            "id": "ex03_speak",
+            "type": "pronunciation",
+            "question": "Buenos días",
+            "answer": "buenos días",
+            "voiceLang": "es-ES",
+            "stage": 1
+        },
+        {
+            "id": "ex04_flashcard",
+            "type": "flashcard",
+            "question": "La Manzana",
+            "answer": "The Apple",
+            "media": {
+                "image": "ipfs://QmImage_Placeholder"
+            },
+            "stage": 1
+        }
+    ]
+}

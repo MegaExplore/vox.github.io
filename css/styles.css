@@ -1,0 +1,249 @@
+/* Global Vars & Reset */
+:root {
+  --primary: #3b82f6;
+  --success: #22c55e;
+  --error: #ef4444;
+  --bg-color: #f3f4f6;
+  --card-bg: #ffffff;
+  --text-main: #1f2937;
+  --text-muted: #6b7280;
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --radius: 16px;
+  --font-main: 'Segoe UI', system-ui, sans-serif;
+  --transition: 0.2s ease;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--bg-color);
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app-container {
+  width: 100%;
+  max-width: 480px; /* Mobile width focus */
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+h2, h3, h4 { margin: 0 0 16px 0; font-weight: 600; }
+
+/* Buttons & Interactables */
+button {
+  cursor: pointer;
+  border: none;
+  background: var(--card-bg);
+  font-family: inherit;
+  font-size: 1rem;
+  transition: transform 0.1s, background-color 0.2s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:active { transform: scale(0.96); }
+
+/* Common UI Components */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.text-center { text-align: center; }
+
+/* Stage Menu */
+.level-section { margin-bottom: 24px; }
+.stage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 12px;
+}
+.stage-card {
+  aspect-ratio: 1;
+  border-radius: 12px;
+  background: white;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  font-weight: 700;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stage-card:hover { border-color: var(--primary); }
+.stage-card.locked {
+  filter: grayscale(1);
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: #e5e7eb;
+  color: #9ca3af;
+}
+
+/* Exercises */
+.exercise-multiple-choice .options-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+.option-btn {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  text-align: left;
+  font-weight: 500;
+}
+.option-btn:hover { border-color: var(--primary); background: #eff6ff; }
+
+/* Tap Fill */
+.options-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+.option-pill {
+  padding: 10px 20px;
+  border-radius: 99px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+/* Flashcard */
+.exercise-flashcard { perspective: 1000px; }
+.flashcard {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  cursor: pointer;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.flashcard.flipped { transform: rotateY(180deg); }
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: white;
+  border-radius: var(--radius);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.card-back { transform: rotateY(180deg); background: #eff6ff; color: var(--primary); }
+.next-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 16px;
+  background: var(--primary);
+  color: white;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+/* Voice */
+.mic-btn {
+  width: 100%;
+  padding: 24px;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  display: block;
+  background: var(--primary);
+  color: white;
+  font-size: 2rem;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+.mic-btn:disabled { background: #9ca3af; box-shadow: none; }
+.status-text { text-align: center; color: var(--text-muted); min-height: 1.5em; }
+
+/* Feedback */
+.feedback-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.feedback-overlay.active { opacity: 1; }
+.feedback-card {
+    background: white;
+    padding: 30px;
+    border-radius: var(--radius);
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transform: scale(0.9);
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.feedback-overlay.active .feedback-card { transform: scale(1); }
+.feedback-icon { font-size: 3rem; margin-bottom: 10px; display: block; }
+.correct .feedback-icon { color: var(--success); }
+.incorrect .feedback-icon { color: var(--error); }
+
+/* Translation Overlay */
+.translation-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 24px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 10px rgba(0,0,0,0.1);
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+  z-index: 50;
+}
+.translation-modal.open { transform: translateY(0); }
+.translate-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+  z-index: 40;
+  display: none; /* Managed by JS */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (min-width: 600px) {
+  #app-container {
+      margin: 40px auto;
+      border-radius: var(--radius);
+      background: white;
+      box-shadow: var(--shadow);
+      min-height: 80vh;
+  }
+}

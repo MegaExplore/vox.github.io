@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VOX Language Engine</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body>
+
+    <div id="app-container">
+        <!-- Floating Translation Button -->
+        <button id="translate-btn" class="translate-btn" style="display:none;">🌐 Translate</button>
+
+        <!-- Main Game Area -->
+        <div id="game-container">
+            <div class="text-center" style="margin-top: 50px;">
+                <h2>Loading Engine...</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Overlay -->
+    <div id="feedback-overlay" class="feedback-overlay">
+        <div class="feedback-card">
+            <span class="feedback-icon">✔️</span>
+            <h3>Correct!</h3>
+        </div>
+    </div>
+
+    <!-- Translation Modal -->
+    <div id="translation-modal" class="translation-modal">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <h4 style="margin:0;">Translation</h4>
+            <button onclick="document.getElementById('translation-modal').classList.remove('open')" style="color:var(--text-muted);">✕</button>
+        </div>
+        <div id="translation-content">
+            <!-- Dynamic Content -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
