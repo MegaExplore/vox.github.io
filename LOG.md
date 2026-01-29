@@ -10,5 +10,5 @@
 - Generated System Summary of Phase 2 artifacts (Engine, Renderers, Speech, UI).
 - Implemented `css/styles.css` (Phase 3 Styles) and updated `js/data-loader.js` (GATEWAY_URL).
 - Implemented `js/app.js` (Core Logic Integration) and `index.html` (Structure). Update `js/ui.js` for Overlay.
-- Population `schemas/` with diverse sample data (Multiple Choice, Tap-Fill, Pronunciation, Flashcard) for the prototype.
+- Population `schemas/` with diverse sample data (Multiple Choice, Tap-Fill, Pronunciation, Flashcard, Sentence Ordering, Matching, Listening) for the prototype.
 - **Project Complete**: Phases 1, 2, and 3 delivered.
