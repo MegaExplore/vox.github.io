@@ -5,7 +5,7 @@
     "all": {
       "name": "Available Languages",
       "levels": {
-        "1": {
+        "A1": {
           "sections": [
             {
               "title": "English - Vocabulary",
@@ -28,6 +28,14 @@
                   "isFree": true
                 }
               ]
+            }
+          ]
+        },
+        "A2": {
+          "sections": [
+            {
+              "title": "Coming Soon",
+              "stages": []
             }
           ]
         }
