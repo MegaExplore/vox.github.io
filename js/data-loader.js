@@ -20,9 +20,10 @@ export async function fetchData(path) {
     }
 
     // 2. Otherwise, treat it as a path relative to your GitHub repo
-    // Remove leading slash if user included one
+    // This logic ensures there is exactly ONE slash between the base and the path
+    const cleanBase = GITHUB_BASE.endsWith('/') ? GITHUB_BASE : GITHUB_BASE + '/';
     const cleanPath = path.startsWith('/') ? path.substring(1) : path;
-    const url = `${GITHUB_BASE}${cleanPath}`;
+    const url = `${cleanBase}${cleanPath}`;
 
     try {
         const response = await fetch(url);
