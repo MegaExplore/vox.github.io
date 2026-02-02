@@ -21,7 +21,7 @@ async function initApp() {
         userState = initSession();
 
         // Load Manifest (assuming it's at a known path or CID, here local for dev)
-        manifest = await fetchData('./schemas/manifest.example.json');
+        manifest = await fetchData('./schemas/manifest.json');
 
         // Initial Routing
         renderRoute();
