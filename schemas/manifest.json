@@ -1,9 +1,9 @@
 {
-  "category": "All Lessons",
+  "category": "Vox-MegaLiberta",
   "version": "1.0.0",
   "languages": {
     "all": {
-      "name": "Available Languages",
+      "name": "Vox-MegaLiberta",
       "levels": {
         "A1": {
           "sections": [
