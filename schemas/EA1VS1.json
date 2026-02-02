@@ -24,6 +24,13 @@
                 "chair"
             ],
             "answer": "apple"
+        },
+        {
+            "id": "p1_01",
+            "type": "pronunciation",
+            "question": "Hello, nice to meet you",
+            "answer": "Hello nice to meet you",
+            "voiceLang": "en-US"
         }
     ]
 }
