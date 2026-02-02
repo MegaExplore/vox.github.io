@@ -4,7 +4,7 @@
  */
 
 // Replace these with your actual details
-const GITHUB_BASE = 'https://raw.githubusercontent.com/MegaExplore/vox.github.io/main/';
+const GITHUB_BASE = 'https://raw.githubusercontent.com/MegaExplore/vox.github.io/main/schemas/';
 
 /**
  * Fetches JSON data from a given path or full URL.
