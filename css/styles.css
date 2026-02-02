@@ -25,31 +25,38 @@
 }
 
 .header-content {
+  /* 1. Layout & Width */
   max-width: 950px;
-  /* Matches your laptop container width */
   margin: 0 auto;
+  padding: 0 20px;
+
+  /* 2. Alignment Logic */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+
+  /* 3. The Landscape/Laptop Fix */
+  flex-wrap: nowrap;
 }
 
 .logo {
-  .logo svg {
-    height: 45px;
-    /* Adjust this to make the logo look right on your screen */
-    width: auto;
-    /* Maintains the logo's proportions */
-    display: block;
-  }
-
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 800;
-  color: var(--primary);
-  font-size: 1.2rem;
+  /* This line is the most important: */
+  flex-shrink: 0;
+
+  width: 200px;
+  /* Gives it a base size */
+  height: 60px;
 }
+
+.logo svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
 
 .lang-switcher select {
   padding: 8px 12px;
