@@ -128,16 +128,14 @@ button:active {
 }
 
 .stage-card {
-  aspect-ratio: 1;
-  border-radius: 12px;
-  background: white;
-  border: 2px solid transparent;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  font-weight: 700;
-  color: var(--primary);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  aspect-ratio: auto;
+  /* Changed from 1 to allow text to fit better */
+  min-height: 100px;
+  /* Ensures it stays a nice button size */
+  padding: 15px;
+  text-align: center;
+  white-space: normal;
+  /* Allows "Greetings (EN)" to wrap if needed */
 }
 
 .stage-card:hover {
@@ -386,6 +384,11 @@ button:active {
 
 /* 2. Standard Laptops & Desktops (Widths above 1024px) */
 @media (min-width: 1024px) {
+  .header-content {
+    max-width: 850px;
+    /* Perfectly aligns the logo/menu with the app card edges */
+  }
+
   #app-container {
     width: 850px;
     /* Comfortable laptop width */
