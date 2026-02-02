@@ -25,3 +25,34 @@
     }
   }
 }
+
+
+
+
+{
+  "category": "Spanish Beginner (A1)",
+  "version": "1.0.0",
+  "languages": {
+    "es": {
+      "name": "Spanish",
+      "levels": {
+        "1": {
+          "sections": [
+            {
+              "title": "Vocabulary",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Greetings",
+                  "description": "Learn to say Hello",
+                  "cid": "EA1VS1.json",
+                  "isFree": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
