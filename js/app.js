@@ -30,6 +30,23 @@ async function initApp() {
         document.getElementById('game-container').innerHTML = `<p>Error loading content: ${e.message}</p>`;
     }
 }
+const langSelect = document.getElementById('language-select');
+
+// Set the initial value of the dropdown based on current state
+langSelect.value = userState.targetLanguage || 'en';
+
+langSelect.addEventListener('change', (e) => {
+    const selectedLang = e.target.value;
+
+    // Update State
+    userState.targetLanguage = selectedLang;
+
+    // Save to localStorage if your app uses it
+    // localStorage.setItem('targetLanguage', selectedLang); 
+
+    // Re-render the UI
+    renderRoute();
+});
 
 function renderRoute() {
     const gameContainer = document.getElementById('game-container');
