@@ -18,19 +18,32 @@ const menuContainer = document.getElementById('game-container'); // Reusing cont
 
 async function initApp() {
     try {
+        // 1. Initialize session and fetch manifest
         userState = initSession();
-
-        // CLEANED: Use the actual filename in your GitHub schemas folder
-        // The loader will turn this into: .../main/schemas/manifest.json
         manifest = await fetchData('manifest.json');
 
+        // 2. Setup the Language Switcher AFTER data is ready
+        const langSelect = document.getElementById('language-select');
+        if (langSelect) {
+            // Set the dropdown to match the user's saved language
+            langSelect.value = userState.targetLanguage || 'en';
+
+            langSelect.addEventListener('change', (e) => {
+                userState.targetLanguage = e.target.value;
+                renderRoute(); // Refresh the menu immediately
+            });
+        }
+
+        // 3. Render the initial view
         renderRoute();
     } catch (e) {
         console.error("App Init Failed:", e);
-        document.getElementById('game-container').innerHTML = `<p>Error loading content: ${e.message}</p>`;
+        // Fallback if game-container is missing
+        const errArea = document.getElementById('game-container') || document.body;
+        errArea.innerHTML = `<p>Error loading content: ${e.message}</p>`;
     }
 }
-const langSelect = document.getElementById('language-select');
+
 
 // Set the initial value of the dropdown based on current state
 langSelect.value = userState.targetLanguage || 'en';
