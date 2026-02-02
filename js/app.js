@@ -18,32 +18,24 @@ const menuContainer = document.getElementById('game-container'); // Reusing cont
 
 async function initApp() {
     try {
-        // 1. Initialize session and fetch manifest
         userState = initSession();
         manifest = await fetchData('manifest.json');
 
-        // 2. Setup the Language Switcher AFTER data is ready
+        // Logic for your new sticky header menu:
         const langSelect = document.getElementById('language-select');
         if (langSelect) {
-            // Set the dropdown to match the user's saved language
             langSelect.value = userState.targetLanguage || 'en';
-
             langSelect.addEventListener('change', (e) => {
                 userState.targetLanguage = e.target.value;
-                renderRoute(); // Refresh the menu immediately
+                renderRoute(); // This triggers the UI update
             });
         }
 
-        // 3. Render the initial view
         renderRoute();
     } catch (e) {
         console.error("App Init Failed:", e);
-        // Fallback if game-container is missing
-        const errArea = document.getElementById('game-container') || document.body;
-        errArea.innerHTML = `<p>Error loading content: ${e.message}</p>`;
     }
 }
-
 
 // Set the initial value of the dropdown based on current state
 langSelect.value = userState.targetLanguage || 'en';
