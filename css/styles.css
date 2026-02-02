@@ -35,6 +35,14 @@
 }
 
 .logo {
+  .logo svg {
+    height: 45px;
+    /* Adjust this to make the logo look right on your screen */
+    width: auto;
+    /* Maintains the logo's proportions */
+    display: block;
+  }
+
   display: flex;
   align-items: center;
   gap: 10px;
@@ -359,6 +367,17 @@ button:active {
 }
 
 /* --- RESPONSIVE TIERS --- */
+
+@media (max-width: 600px) {
+  .main-header {
+    padding: 8px 0;
+  }
+
+  .logo svg {
+    height: 35px;
+    /* Smaller logo for smaller screens */
+  }
+}
 
 /* 1. Tablet & Small Laptops (Widths above 600px) */
 @media (min-width: 600px) {
