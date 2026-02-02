@@ -20,10 +20,10 @@ async function initApp() {
     try {
         userState = initSession();
 
-        // Load Manifest (assuming it's at a known path or CID, here local for dev)
-        manifest = await fetchData('./schemas/manifest.example.json');
+        // CLEANED: Use the actual filename in your GitHub schemas folder
+        // The loader will turn this into: .../main/schemas/manifest.json
+        manifest = await fetchData('manifest.json');
 
-        // Initial Routing
         renderRoute();
     } catch (e) {
         console.error("App Init Failed:", e);
@@ -58,24 +58,17 @@ async function loadStage(cid) {
     gameContainer.innerHTML = '<p class="text-center">Loading Stage...</p>';
 
     try {
-        // Fetch Stage Data
-        // In real app: cid would be an IPFS hash. 
-        // For local prototype: we might map 'cid1' to './schemas/primary.example.json' for testing.
-        // Let's implement a simple mock resolver for the prototype if the CID isn't a real path.
-        let fetchUrl = cid;
-        if (cid === 'QmHash1...' || cid === 'cid1') fetchUrl = './schemas/primary.example.json';
+        // CLEANED: Removed the 'QmHash' and 'example.json' logic.
+        // 'cid' now comes directly from your manifest (e.g., "EA1VS1.json")
+        const stageData = await fetchData(cid);
 
-        const stageData = await fetchData(fetchUrl);
-
-        // Start Exercises
         let currentIndex = 0;
-
-        // Resume logic could go here: if userState.stage === stageData.stage, currentIndex = userState.exerciseIndex
+        // Resume logic could go here: if userState.currentStage === cid, currentIndex = userState.lastIndex
 
         runExercise(stageData, currentIndex);
 
     } catch (e) {
-        console.error(e);
+        console.error("Stage Load Error:", e);
         gameContainer.innerHTML = '<p>Failed to load stage.</p><button onclick="window.location.reload()">Retry</button>';
     }
 }
