@@ -1,0 +1,13 @@
+{
+  "category": "English Beginner (A1)",
+  "version": "1.0.0",
+  "stages": [
+    {
+      "id": 1,
+      "name": "Stage 1: Greetings",
+      "description": "Learn to say Hello and Goodbye",
+      "cid": "EA1VS1.json",
+      "isFree": true
+    }
+  ]
+}
