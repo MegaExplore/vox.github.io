@@ -1,40 +1,29 @@
 {
-  "category": "Multi-Language Beginner (A1)",
+  "category": "All Lessons",
   "version": "1.0.0",
   "languages": {
-    "en": {
-      "name": "English",
+    "all": {
+      "name": "Available Languages",
       "levels": {
         "1": {
           "sections": [
             {
-              "title": "Vocabulary",
+              "title": "English - Vocabulary",
               "stages": [
                 {
                   "id": 1,
-                  "name": "Greetings",
-                  "description": "Learn to say Hello",
+                  "name": "Greetings (EN)",
                   "cid": "EA1VS1.json",
                   "isFree": true
                 }
               ]
-            }
-          ]
-        }
-      }
-    },
-    "es": {
-      "name": "Spanish",
-      "levels": {
-        "1": {
-          "sections": [
+            },
             {
-              "title": "Vocabulario",
+              "title": "Spanish - Vocabulario",
               "stages": [
                 {
                   "id": 1,
-                  "name": "Saludos",
-                  "description": "Aprender a saludar",
+                  "name": "Saludos (ES)",
                   "cid": "SA1VS1.json",
                   "isFree": true
                 }
