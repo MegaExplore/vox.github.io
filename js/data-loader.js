@@ -24,7 +24,7 @@ export async function fetchData(path) {
     const cleanBase = GITHUB_BASE.endsWith('/') ? GITHUB_BASE : GITHUB_BASE + '/';
     const cleanPath = path.startsWith('/') ? path.substring(1) : path;
     const url = `${cleanBase}${cleanPath}`;
-    console.log("DEBUG: Fetching from:", url); // <--- Add this
+
 
     try {
         const response = await fetch(url);
