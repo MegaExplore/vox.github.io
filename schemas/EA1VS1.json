@@ -1,36 +1,52 @@
 {
-    "id": "EA1VS1",
-    "name": "Stage 1: Greetings",
-    "exercises": [
-        {
-            "id": "b1_01",
-            "type": "multiple_choice",
-            "question": "Select the food.",
-            "options": [
-                "apple",
-                "chair",
-                "bed"
-            ],
-            "answer": "apple",
-            "hint": "You eat this"
+  "category": "Vox-MegaLiberta",
+  "version": "1.0.0",
+  "languages": {
+    "all": {
+      "name": "Vox-MegaLiberta",
+      "levels": {
+        "A1": {
+          "sections": [
+            {
+              "title": "English - Vocabulary",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Greetings (EN)",
+                  "cid": "EA1VS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Numbers (EN)",
+                  "cid": "EA1VS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Colors (EN)",
+                  "cid": "EA1VS3.json",
+                  "isFree": true
+                },
+                {
+                  "id": 4,
+                  "name": "Family (EN)",
+                  "cid": "EA1VS4.json",
+                  "isFree": true
+                }
+              ]
+            }
+          ]
         },
-        {
-            "id": "b1_02",
-            "type": "tap_fill",
-            "question": "The ___ is on the tree.",
-            "options": [
-                "apple",
-                "bed",
-                "chair"
-            ],
-            "answer": "apple"
-        },
-        {
-            "id": "p1_01",
-            "type": "pronunciation",
-            "question": "Hello, nice to meet you",
-            "answer": "Hello nice to meet you",
-            "voiceLang": "en-US"
+        "A2": {
+          "sections": [
+            {
+              "title": "Coming Soon",
+              "stages": []
+            }
+          ]
         }
-    ]
+      }
+    }
+  }
 }
