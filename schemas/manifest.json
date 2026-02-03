@@ -15,16 +15,23 @@
                   "name": "Greetings (EN)",
                   "cid": "EA1VS1.json",
                   "isFree": true
-                }
-              ]
-            },
-            {
-              "title": "Spanish - Vocabulario",
-              "stages": [
+                },
                 {
-                  "id": 1,
-                  "name": "Saludos (ES)",
-                  "cid": "SA1VS1.json",
+                  "id": 2,
+                  "name": "Numbers (EN)",
+                  "cid": "EA1VS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Colors (EN)",
+                  "cid": "EA1VS3.json",
+                  "isFree": true
+                },
+                {
+                  "id": 4,
+                  "name": "Family (EN)",
+                  "cid": "EA1VS4.json",
                   "isFree": true
                 }
               ]
