@@ -1,36 +1,34 @@
 {
-    "id": "EA1VS1",
-    "name": "Stage 1: Greetings",
     "exercises": [
         {
-            "id": "b1_01",
+            "id": "gre_001",
             "type": "multiple_choice",
-            "question": "Select the food.",
+            "question": "How do you say 'Hola' in English?",
             "options": [
-                "apple",
-                "chair",
-                "bed"
+                "Goodbye",
+                "Hello",
+                "Please",
+                "Thanks"
             ],
-            "answer": "apple",
-            "hint": "You eat this"
+            "answer": "Hello"
         },
         {
-            "id": "b1_02",
+            "id": "gre_002",
             "type": "tap_fill",
-            "question": "The ___ is on the tree.",
+            "question": "Good ___, how are you?",
             "options": [
-                "apple",
-                "bed",
-                "chair"
+                "Morning",
+                "Blue",
+                "Apple"
             ],
-            "answer": "apple"
+            "answer": "Morning"
         },
         {
-            "id": "p1_01",
+            "id": "gre_003",
             "type": "pronunciation",
-            "question": "Hello, nice to meet you",
-            "answer": "Hello nice to meet you",
-            "voiceLang": "en-US"
+            "question": "Nice to meet you",
+            "voiceLang": "en-US",
+            "answer": "Nice to meet you"
         }
     ]
 }

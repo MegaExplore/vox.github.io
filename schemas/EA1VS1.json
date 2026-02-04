@@ -1,34 +1,77 @@
 {
   "exercises": [
     {
-      "id": "gre_001",
+      "id": "num_001",
+      "type": "flashcards",
+      "front": "12",
+      "back": "Twelve",
+      "answer": "Twelve"
+    },
+    {
+      "id": "num_002",
       "type": "multiple_choice",
-      "question": "How do you say 'Hola' in English?",
+      "question": "Which number is 'Forty'?",
       "options": [
-        "Goodbye",
-        "Hello",
-        "Please",
-        "Thanks"
+        "14",
+        "40",
+        "44",
+        "4"
       ],
-      "answer": "Hello"
+      "answer": "40"
     },
     {
-      "id": "gre_002",
+      "id": "num_003",
       "type": "tap_fill",
-      "question": "Good ___, how are you?",
+      "question": "Ten, Twenty, ___, Forty",
       "options": [
-        "Morning",
-        "Blue",
-        "Apple"
+        "Thirty",
+        "Thirteen",
+        "Three"
       ],
-      "answer": "Morning"
+      "answer": "Thirty"
     },
     {
-      "id": "gre_003",
+      "id": "num_004",
+      "type": "fill_blank_typing",
+      "question": "What is 5 + 5? Answer: ___",
+      "answer": "Ten"
+    },
+    {
+      "id": "num_005",
+      "type": "matching",
+      "pairs": [
+        {
+          "left": "1st",
+          "right": "First"
+        },
+        {
+          "left": "2nd",
+          "right": "Second"
+        },
+        {
+          "left": "3rd",
+          "right": "Third"
+        }
+      ],
+      "answer": "Third"
+    },
+    {
+      "id": "num_006",
+      "type": "sentence_ordering",
+      "words": [
+        "I",
+        "have",
+        "three",
+        "apples"
+      ],
+      "answer": "I have three apples"
+    },
+    {
+      "id": "num_007",
       "type": "pronunciation",
-      "question": "Nice to meet you",
+      "question": "One hundred",
       "voiceLang": "en-US",
-      "answer": "Nice to meet you"
+      "answer": "One hundred"
     }
   ]
 }
