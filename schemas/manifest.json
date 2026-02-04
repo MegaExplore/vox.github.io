@@ -13,25 +13,25 @@
                 {
                   "id": 1,
                   "name": "Greetings (EN)",
-                  "cid": "EA1VS1",
+                  "cid": "EA1VS1.json",
                   "isFree": true
                 },
                 {
                   "id": 2,
                   "name": "Numbers (EN)",
-                  "cid": "EA1VS2",
+                  "cid": "EA1VS2.json",
                   "isFree": true
                 },
                 {
                   "id": 3,
                   "name": "Colors (EN)",
-                  "cid": "EA1VS3",
+                  "cid": "EA1VS3.json",
                   "isFree": true
                 },
                 {
                   "id": 4,
                   "name": "Family (EN)",
-                  "cid": "EA1VS4",
+                  "cid": "EA1VS4.json",
                   "isFree": true
                 }
               ]
