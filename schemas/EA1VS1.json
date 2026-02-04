@@ -4,7 +4,7 @@
   "exercises": [
     {
       "id": "b1_01",
-      "type": "mcq",
+      "type": "multiple_choice",
       "words": ["apple", "chair", "bed"],
       "question": "Select the food.",
       "correct_answer": "apple",
