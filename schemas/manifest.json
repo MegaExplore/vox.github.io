@@ -8,29 +8,29 @@
         "A1": {
           "sections": [
             {
-              "title": "English - Vocabulary",
+              "title": "VOCABULARY",
               "stages": [
                 {
                   "id": 1,
-                  "name": "Greetings (EN)",
+                  "name": "Level 1",
                   "cid": "EA1VS1.json",
                   "isFree": true
                 },
                 {
                   "id": 2,
-                  "name": "Numbers (EN)",
+                  "name": "Level 2",
                   "cid": "EA1VS2.json",
                   "isFree": true
                 },
                 {
                   "id": 3,
-                  "name": "Colors (EN)",
+                  "name": "Level 3",
                   "cid": "EA1VS3.json",
                   "isFree": true
                 },
                 {
                   "id": 4,
-                  "name": "Family (EN)",
+                  "name": "Level 4",
                   "cid": "EA1VS4.json",
                   "isFree": false
                 }
