@@ -1,49 +1,34 @@
 {
-  "stage_id": 1,
-  "stage_name": "Professional Greetings",
   "exercises": [
     {
-      "id": "ex_001",
+      "id": "gre_001",
       "type": "multiple_choice",
-      "question": "How do you professionally greet a client in the morning?",
+      "question": "How do you say 'Hola' in English?",
       "options": [
-        "Good morning",
-        "Hey there",
-        "What's up?",
-        "Yo!"
+        "Goodbye",
+        "Hello",
+        "Please",
+        "Thanks"
       ],
-      "answer": "Good morning"
+      "answer": "Hello"
     },
     {
-      "id": "ex_002",
+      "id": "gre_002",
       "type": "tap_fill",
-      "question": "It is a pleasure ___ meeting you today.",
+      "question": "Good ___, how are you?",
       "options": [
-        "at",
-        "to",
-        "for",
-        "of"
+        "Morning",
+        "Blue",
+        "Apple"
       ],
-      "answer": "to"
+      "answer": "Morning"
     },
     {
-      "id": "ex_003",
+      "id": "gre_003",
       "type": "pronunciation",
       "question": "Nice to meet you",
       "voiceLang": "en-US",
-      "answer": "nice to meet you"
-    },
-    {
-      "id": "ex_004",
-      "type": "multiple_choice",
-      "question": "Which response is most appropriate for 'How are you?' in a business setting?",
-      "options": [
-        "I'm fine, thanks.",
-        "Very well, thank you. And you?",
-        "I'm tired.",
-        "Not much."
-      ],
-      "answer": "Very well, thank you. And you?"
+      "answer": "Nice to meet you"
     }
   ]
 }
