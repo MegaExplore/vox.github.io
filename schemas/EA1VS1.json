@@ -1,21 +1,17 @@
 {
-    "id": "EA1VS1",
-    "name": "stage1",
-    "exercises": [
-        {
-            "id": "b1_01",
-            "type": "mcq",
-            "words": [
-                "apple",
-                "chair",
-                "bed"
-            ],
-            "question": "Select the food.",
-            "correct_answer": "apple",
-            "hint": "You eat this",
-            "voice_input": false,
-            "example_sentence": "I eat an apple.",
-            "media": {}
-        }
-    ]
+  "id": "EA1VS1",
+  "name": "stage1",
+  "exercises": [
+    {
+      "id": "b1_01",
+      "type": "mcq",
+      "words": ["apple", "chair", "bed"],
+      "question": "Select the food.",
+      "correct_answer": "apple",
+      "hint": "You eat this",
+      "voice_input": false,
+      "example_sentence": "I eat an apple.",
+      "media": {}
+    }
+  ]
 }
