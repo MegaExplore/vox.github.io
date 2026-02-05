@@ -1,76 +1,84 @@
 {
   "exercises": [
     {
-      "id": "num_001",
-      "type": "flashcards",
-      "front": "12",
-      "back": "Twelve",
-      "answer": "Twelve"
-    },
-    {
-      "id": "num_002",
+      "id": "ex_mc_01",
       "type": "multiple_choice",
-      "question": "Which number is 'Forty'?",
+      "question": "Which of these is a formal greeting in English?",
       "options": [
-        "14",
-        "40",
-        "44",
-        "4"
+        "Hey!",
+        "What's up?",
+        "Good morning",
+        "Yo"
       ],
-      "answer": "40"
+      "answer": "Good morning"
     },
     {
-      "id": "num_003",
-      "type": "tap_fill",
-      "question": "Ten, Twenty, ___, Forty",
-      "options": [
-        "Thirty",
-        "Thirteen",
-        "Three"
-      ],
-      "answer": "Thirty"
-    },
-    {
-      "id": "num_004",
-      "type": "fill_blank_typing",
-      "question": "What is 5 + 5? Answer: ___",
-      "answer": "Ten"
-    },
-    {
-      "id": "num_005",
+      "id": "ex_match_01",
       "type": "matching",
       "pairs": [
         {
-          "left": "1st",
-          "right": "First"
+          "left": "Apple",
+          "right": "Manzana"
         },
         {
-          "left": "2nd",
-          "right": "Second"
+          "left": "Bread",
+          "right": "Pan"
         },
         {
-          "left": "3rd",
-          "right": "Third"
+          "left": "Water",
+          "right": "Agua"
+        },
+        {
+          "left": "Milk",
+          "right": "Leche"
         }
-      ],
-      "answer": "Third"
+      ]
     },
     {
-      "id": "num_006",
+      "id": "ex_order_01",
       "type": "sentence_ordering",
+      "question": "Arrange in order:",
       "words": [
         "I",
-        "have",
-        "three",
-        "apples"
+        "am",
+        "learning",
+        "a",
+        "new",
+        "language"
       ],
-      "answer": "I have three apples"
+      "answer": "I am learning a new language",
+      "voiceLang": "en-US"
     },
     {
-      "id": "num_007",
+      "id": "ex_flash_01",
+      "type": "flashcards",
+      "front": "Bibliothèque",
+      "back": "Library",
+      "answer": "Library"
+    },
+    {
+      "id": "ex_type_01",
+      "type": "fill_blank_typing",
+      "question": "The cat is sleeping ___ the sofa.",
+      "answer": "on"
+    },
+    {
+      "id": "ex_tap_01",
+      "type": "tap_fill",
+      "question": "One, Two, ___, Four.",
+      "options": [
+        "Five",
+        "Three",
+        "Ten"
+      ],
+      "answer": "Three"
+    },
+    {
+      "id": "ex_voice_01",
       "type": "pronunciation",
-      "question": "two beds",
+      "question": "The weather is beautiful.",
       "voiceLang": "en-US",
-      "answer": "two beds"
+      "answer": "the weather is beautiful"
     }
   ]
+}
