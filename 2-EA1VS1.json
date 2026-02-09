@@ -1,0 +1,369 @@
+{
+    "exercises": [
+        {
+            "id": "b2_01",
+            "type": "multiple_choice",
+            "options": [
+                "cat",
+                "tree",
+                "sun"
+            ],
+            "question": "Select the animal.",
+            "answer": "cat",
+            "hint": "It has four legs",
+            "voice_input": false,
+            "example_sentence": "The cat runs.",
+            "media": {}
+        },
+        {
+            "id": "b2_02",
+            "type": "tap_fill",
+            "options": [
+                "runs",
+                "writes",
+                "reads",
+                "drives"
+            ],
+            "question": "The dog ___.",
+            "answer": "runs",
+            "hint": "Fast movement",
+            "voice_input": false,
+            "example_sentence": "The dog runs.",
+            "media": {}
+        },
+        {
+            "id": "b2_03",
+            "type": "sentence_ordering",
+            "words": [
+                "fish",
+                "swims",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The fish swims",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The fish swims.",
+            "media": {}
+        },
+        {
+            "id": "b2_04",
+            "type": "matching",
+            "words": [
+                "bird",
+                "fly",
+                "fish",
+                "swim"
+            ],
+            "question": "Match animal to action.",
+            "pairs": [
+                {
+                    "left": "bird",
+                    "right": "fly"
+                },
+                {
+                    "left": "fish",
+                    "right": "swim"
+                }
+            ],
+            "answer": [
+                [
+                    "bird",
+                    "fly"
+                ],
+                [
+                    "fish",
+                    "swim"
+                ]
+            ],
+            "hint": "Air vs Water",
+            "voice_input": false,
+            "example_sentence": "Birds fly. Fish swim.",
+            "media": {}
+        },
+        {
+            "id": "b2_05",
+            "type": "pronunciation",
+            "words": [
+                "school"
+            ],
+            "question": "Say 'school'.",
+            "answer": "school",
+            "hint": "Place for learning",
+            "voice_input": true,
+            "example_sentence": "Go to school.",
+            "media": {}
+        },
+        {
+            "id": "b2_06",
+            "type": "multiple_choice",
+            "options": [
+                "pen",
+                "book",
+                "car"
+            ],
+            "question": "Select the vehicle.",
+            "answer": "car",
+            "hint": "You drive this",
+            "voice_input": false,
+            "example_sentence": "The car goes.",
+            "media": {}
+        },
+        {
+            "id": "b2_07",
+            "type": "tap_fill",
+            "options": [
+                "Read",
+                "Eat",
+                "Drink",
+                "Swim"
+            ],
+            "question": "___ the book.",
+            "answer": "Read",
+            "hint": "Look at words",
+            "voice_input": false,
+            "example_sentence": "Read the book.",
+            "media": {}
+        },
+        {
+            "id": "b2_08",
+            "type": "sentence_ordering",
+            "words": [
+                "sun",
+                "shines",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The sun shines",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The sun shines.",
+            "media": {}
+        },
+        {
+            "id": "b2_09",
+            "type": "matching",
+            "words": [
+                "pen",
+                "write",
+                "book",
+                "read"
+            ],
+            "question": "Match object to action.",
+            "pairs": [
+                {
+                    "left": "pen",
+                    "right": "write"
+                },
+                {
+                    "left": "book",
+                    "right": "read"
+                }
+            ],
+            "answer": [
+                [
+                    "pen",
+                    "write"
+                ],
+                [
+                    "book",
+                    "read"
+                ]
+            ],
+            "hint": "Tools for learning",
+            "voice_input": false,
+            "example_sentence": "Write with pen. Read book.",
+            "media": {}
+        },
+        {
+            "id": "b2_10",
+            "type": "multiple_choice",
+            "options": [
+                "teacher",
+                "flower",
+                "bag"
+            ],
+            "question": "Select the person.",
+            "answer": "teacher",
+            "hint": "Helps you learn",
+            "voice_input": false,
+            "example_sentence": "The teacher helps.",
+            "media": {}
+        },
+        {
+            "id": "b2_11",
+            "type": "tap_fill",
+            "options": [
+                "stops",
+                "eats",
+                "sleeps",
+                "reads"
+            ],
+            "question": "The car ___.",
+            "answer": "stops",
+            "hint": "Not go",
+            "voice_input": false,
+            "example_sentence": "The car stops.",
+            "media": {}
+        },
+        {
+            "id": "b2_12",
+            "type": "sentence_ordering",
+            "words": [
+                "bus",
+                "goes",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The bus goes",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The bus goes.",
+            "media": {}
+        },
+        {
+            "id": "b2_13",
+            "type": "matching",
+            "words": [
+                "sun",
+                "moon",
+                "car",
+                "bus"
+            ],
+            "question": "Match by category.",
+            "pairs": [
+                {
+                    "left": "sun",
+                    "right": "moon"
+                },
+                {
+                    "left": "car",
+                    "right": "bus"
+                }
+            ],
+            "answer": [
+                [
+                    "sun",
+                    "moon"
+                ],
+                [
+                    "car",
+                    "bus"
+                ]
+            ],
+            "hint": "Sky and Transport",
+            "voice_input": false,
+            "example_sentence": "Sun and moon in sky.",
+            "media": {}
+        },
+        {
+            "id": "b2_14",
+            "type": "multiple_choice",
+            "options": [
+                "sun",
+                "tree",
+                "moon"
+            ],
+            "question": "Select the plant.",
+            "answer": "tree",
+            "hint": "Has leaves",
+            "voice_input": false,
+            "example_sentence": "The tree grows.",
+            "media": {}
+        },
+        {
+            "id": "b2_15",
+            "type": "tap_fill",
+            "options": [
+                "tree",
+                "book",
+                "apple",
+                "pen"
+            ],
+            "question": "The bird is in the ___.",
+            "answer": "tree",
+            "hint": "Place for nest",
+            "voice_input": false,
+            "example_sentence": "The bird is in the tree.",
+            "media": {}
+        },
+        {
+            "id": "b2_16",
+            "type": "sentence_ordering",
+            "words": [
+                "flower",
+                "See",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "See the flower",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "See the flower.",
+            "media": {}
+        },
+        {
+            "id": "b2_17",
+            "type": "pronunciation",
+            "words": [
+                "write"
+            ],
+            "question": "Say 'write'.",
+            "answer": "write",
+            "hint": "Use a pen",
+            "voice_input": true,
+            "example_sentence": "I write.",
+            "media": {}
+        },
+        {
+            "id": "b2_18",
+            "type": "matching",
+            "words": [
+                "teacher",
+                "school",
+                "bird",
+                "tree"
+            ],
+            "question": "Match person to place.",
+            "pairs": [
+                {
+                    "left": "teacher",
+                    "right": "school"
+                },
+                {
+                    "left": "bird",
+                    "right": "tree"
+                }
+            ],
+            "answer": [
+                [
+                    "teacher",
+                    "school"
+                ],
+                [
+                    "bird",
+                    "tree"
+                ]
+            ],
+            "hint": "Who goes where",
+            "voice_input": false,
+            "example_sentence": "Teacher at school.",
+            "media": {}
+        },
+        {
+            "id": "b2_19",
+            "type": "multiple_choice",
+            "options": [
+                "stop",
+                "run",
+                "fly"
+            ],
+            "question": "Select the stop action.",
+            "answer": "stop",
+            "hint": "Not go",
+            "voice_input": false,
+            "example_sentence": "Stop the car.",
+            "media": {}
+        }
+    ]
+}

@@ -1,6 +1,371 @@
 {
     "exercises": [
         {
+            "id": "b1_01",
+            "type": "multiple_choice",
+            "options": [
+                "apple",
+                "chair",
+                "bed"
+            ],
+            "question": "Select the food.",
+            "answer": "apple",
+            "hint": "You eat this",
+            "voice_input": false,
+            "example_sentence": "I eat an apple.",
+            "media": {}
+        },
+        {
+            "id": "b1_02",
+            "type": "tap_fill",
+            "options": [
+                "eat",
+                "run",
+                "sleep",
+                "sit"
+            ],
+            "question": "I ___ the banana.",
+            "answer": "eat",
+            "hint": "Consume food",
+            "voice_input": false,
+            "example_sentence": "I eat the banana.",
+            "media": {}
+        },
+        {
+            "id": "b1_03",
+            "type": "sentence_ordering",
+            "words": [
+                "bread",
+                "eat",
+                "I"
+            ],
+            "question": "Order the sentence.",
+            "answer": "I eat bread",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "I eat bread.",
+            "media": {}
+        },
+        {
+            "id": "b1_04",
+            "type": "matching",
+            "words": [
+                "apple",
+                "eat",
+                "water",
+                "drink"
+            ],
+            "question": "Match action to object.",
+            "pairs": [
+                {
+                    "left": "apple",
+                    "right": "eat"
+                },
+                {
+                    "left": "water",
+                    "right": "drink"
+                }
+            ],
+            "answer": [
+                [
+                    "apple",
+                    "eat"
+                ],
+                [
+                    "water",
+                    "drink"
+                ]
+            ],
+            "hint": "Food vs Liquid",
+            "voice_input": false,
+            "example_sentence": "I eat apple. I drink water.",
+            "media": {}
+        },
+        {
+            "id": "b1_05",
+            "type": "pronunciation",
+            "words": [
+                "water"
+            ],
+            "question": "Say 'water'.",
+            "answer": "water",
+            "hint": "Clear liquid",
+            "voice_input": true,
+            "example_sentence": "I drink water.",
+            "media": {}
+        },
+        {
+            "id": "b1_06",
+            "type": "multiple_choice",
+            "options": [
+                "milk",
+                "bread",
+                "window"
+            ],
+            "question": "Select the drink.",
+            "answer": "milk",
+            "hint": "White liquid",
+            "voice_input": false,
+            "example_sentence": "You drink milk.",
+            "media": {}
+        },
+        {
+            "id": "b1_07",
+            "type": "tap_fill",
+            "options": [
+                "drink",
+                "walk",
+                "sit",
+                "sleep"
+            ],
+            "question": "You ___ milk.",
+            "answer": "drink",
+            "hint": "Consume liquid",
+            "voice_input": false,
+            "example_sentence": "You drink milk.",
+            "media": {}
+        },
+        {
+            "id": "b1_08",
+            "type": "sentence_ordering",
+            "words": [
+                "drinks",
+                "boy",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The boy drinks",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The boy drinks.",
+            "media": {}
+        },
+        {
+            "id": "b1_09",
+            "type": "matching",
+            "words": [
+                "chair",
+                "sit",
+                "bed",
+                "sleep"
+            ],
+            "question": "Match object to action.",
+            "pairs": [
+                {
+                    "left": "chair",
+                    "right": "sit"
+                },
+                {
+                    "left": "bed",
+                    "right": "sleep"
+                }
+            ],
+            "answer": [
+                [
+                    "chair",
+                    "sit"
+                ],
+                [
+                    "bed",
+                    "sleep"
+                ]
+            ],
+            "hint": "Furniture uses",
+            "voice_input": false,
+            "example_sentence": "Sit on chair. Sleep in bed.",
+            "media": {}
+        },
+        {
+            "id": "b1_10",
+            "type": "multiple_choice",
+            "options": [
+                "bed",
+                "apple",
+                "water"
+            ],
+            "question": "You sleep in a ___.",
+            "answer": "bed",
+            "hint": "Furniture for rest",
+            "voice_input": false,
+            "example_sentence": "You sleep in a bed.",
+            "media": {}
+        },
+        {
+            "id": "b1_11",
+            "type": "tap_fill",
+            "options": [
+                "Open",
+                "Eat",
+                "Drink",
+                "Sleep"
+            ],
+            "question": "___ the door.",
+            "answer": "Open",
+            "hint": "Not close",
+            "voice_input": false,
+            "example_sentence": "Open the door.",
+            "media": {}
+        },
+        {
+            "id": "b1_12",
+            "type": "sentence_ordering",
+            "words": [
+                "Close",
+                "window",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Close the window",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Close the window.",
+            "media": {}
+        },
+        {
+            "id": "b1_13",
+            "type": "matching",
+            "words": [
+                "Open",
+                "window",
+                "help",
+                "boy"
+            ],
+            "question": "Match action to context.",
+            "pairs": [
+                {
+                    "left": "Open",
+                    "right": "window"
+                },
+                {
+                    "left": "help",
+                    "right": "boy"
+                }
+            ],
+            "answer": [
+                [
+                    "Open",
+                    "window"
+                ],
+                [
+                    "help",
+                    "boy"
+                ]
+            ],
+            "hint": "Actions",
+            "voice_input": false,
+            "example_sentence": "Open window. Help boy.",
+            "media": {}
+        },
+        {
+            "id": "b1_14",
+            "type": "multiple_choice",
+            "options": [
+                "helps",
+                "eats",
+                "opens"
+            ],
+            "question": "The girl ___ the boy.",
+            "answer": "helps",
+            "hint": "Assists",
+            "voice_input": false,
+            "example_sentence": "The girl helps the boy.",
+            "media": {}
+        },
+        {
+            "id": "b1_15",
+            "type": "tap_fill",
+            "options": [
+                "runs",
+                "opens",
+                "closes",
+                "helps"
+            ],
+            "question": "The man ___.",
+            "answer": "runs",
+            "hint": "Move fast",
+            "voice_input": false,
+            "example_sentence": "The man runs.",
+            "media": {}
+        },
+        {
+            "id": "b1_16",
+            "type": "sentence_ordering",
+            "words": [
+                "woman",
+                "walks",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The woman walks",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The woman walks.",
+            "media": {}
+        },
+        {
+            "id": "b1_17",
+            "type": "pronunciation",
+            "words": [
+                "help"
+            ],
+            "question": "Say 'help'.",
+            "answer": "help",
+            "hint": "Assist",
+            "voice_input": true,
+            "example_sentence": "I help you.",
+            "media": {}
+        },
+        {
+            "id": "b1_18",
+            "type": "matching",
+            "words": [
+                "girl",
+                "boy",
+                "man",
+                "woman"
+            ],
+            "question": "Match similar people.",
+            "pairs": [
+                {
+                    "left": "girl",
+                    "right": "boy"
+                },
+                {
+                    "left": "man",
+                    "right": "woman"
+                }
+            ],
+            "answer": [
+                [
+                    "girl",
+                    "boy"
+                ],
+                [
+                    "man",
+                    "woman"
+                ]
+            ],
+            "hint": "Children and Adults",
+            "voice_input": false,
+            "example_sentence": "Girl and boy play.",
+            "media": {}
+        },
+        {
+            "id": "b1_19",
+            "type": "multiple_choice",
+            "options": [
+                "eat",
+                "drink",
+                "run"
+            ],
+            "question": "I ___ bread.",
+            "answer": "eat",
+            "hint": "Consuming food",
+            "voice_input": false,
+            "example_sentence": "I eat bread.",
+            "media": {}
+        },
+        {
             "id": "b2_01",
             "type": "multiple_choice",
             "options": [
@@ -363,6 +728,2550 @@
             "hint": "Not go",
             "voice_input": false,
             "example_sentence": "Stop the car.",
+            "media": {}
+        },
+        {
+            "id": "b3_01",
+            "type": "multiple_choice",
+            "options": [
+                "egg",
+                "rice",
+                "cheese"
+            ],
+            "question": "Select the egg.",
+            "answer": "egg",
+            "hint": "White and yellow food",
+            "voice_input": false,
+            "example_sentence": "I cook an egg.",
+            "media": {}
+        },
+        {
+            "id": "b3_02",
+            "type": "tap_fill",
+            "options": [
+                "face",
+                "sun",
+                "moon",
+                "star"
+            ],
+            "question": "Wash the ___.",
+            "answer": "face",
+            "hint": "Part of head",
+            "voice_input": false,
+            "example_sentence": "Wash the face.",
+            "media": {}
+        },
+        {
+            "id": "b3_03",
+            "type": "sentence_ordering",
+            "words": [
+                "rice",
+                "Cook",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Cook the rice",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Cook the rice.",
+            "media": {}
+        },
+        {
+            "id": "b3_04",
+            "type": "matching",
+            "words": [
+                "eye",
+                "see",
+                "nose",
+                "smell"
+            ],
+            "question": "Match part to action.",
+            "pairs": [
+                {
+                    "left": "eye",
+                    "right": "see"
+                },
+                {
+                    "left": "nose",
+                    "right": "smell"
+                }
+            ],
+            "answer": [
+                [
+                    "eye",
+                    "see"
+                ],
+                [
+                    "nose",
+                    "smell"
+                ]
+            ],
+            "hint": "Senses",
+            "voice_input": false,
+            "example_sentence": "See with eye. Smell with nose.",
+            "media": {}
+        },
+        {
+            "id": "b3_05",
+            "type": "pronunciation",
+            "words": [
+                "fruit"
+            ],
+            "question": "Say 'fruit'.",
+            "answer": "fruit",
+            "hint": "Healthy food",
+            "voice_input": true,
+            "example_sentence": "Eat fruit.",
+            "media": {}
+        },
+        {
+            "id": "b3_06",
+            "type": "multiple_choice",
+            "options": [
+                "leg",
+                "arm",
+                "head"
+            ],
+            "question": "Select the leg.",
+            "answer": "leg",
+            "hint": "For walking",
+            "voice_input": false,
+            "example_sentence": "I walk on one leg.",
+            "media": {}
+        },
+        {
+            "id": "b3_07",
+            "type": "tap_fill",
+            "options": [
+                "wear",
+                "eat",
+                "drink",
+                "sleep"
+            ],
+            "question": "I ___ the shirt.",
+            "answer": "wear",
+            "hint": "Put on clothes",
+            "voice_input": false,
+            "example_sentence": "I wear the shirt.",
+            "media": {}
+        },
+        {
+            "id": "b3_08",
+            "type": "sentence_ordering",
+            "words": [
+                "cheese",
+                "eats",
+                "The",
+                "boy"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The boy eats cheese",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "The boy eats cheese.",
+            "media": {}
+        },
+        {
+            "id": "b3_09",
+            "type": "matching",
+            "words": [
+                "foot",
+                "walk",
+                "hand",
+                "wash"
+            ],
+            "question": "Match part to action.",
+            "pairs": [
+                {
+                    "left": "foot",
+                    "right": "walk"
+                },
+                {
+                    "left": "hand",
+                    "right": "wash"
+                }
+            ],
+            "answer": [
+                [
+                    "foot",
+                    "walk"
+                ],
+                [
+                    "hand",
+                    "wash"
+                ]
+            ],
+            "hint": "Body actions",
+            "voice_input": false,
+            "example_sentence": "Walk with foot. Wash hand.",
+            "media": {}
+        },
+        {
+            "id": "b3_10",
+            "type": "multiple_choice",
+            "options": [
+                "mouth",
+                "eye",
+                "nose"
+            ],
+            "question": "Select the mouth.",
+            "answer": "mouth",
+            "hint": "For eating",
+            "voice_input": false,
+            "example_sentence": "Open the mouth.",
+            "media": {}
+        },
+        {
+            "id": "b3_11",
+            "type": "tap_fill",
+            "options": [
+                "sleeps",
+                "rains",
+                "opens",
+                "closes"
+            ],
+            "question": "The girl ___.",
+            "answer": "sleeps",
+            "hint": "Rest at night",
+            "voice_input": false,
+            "example_sentence": "The girl sleeps.",
+            "media": {}
+        },
+        {
+            "id": "b3_12",
+            "type": "sentence_ordering",
+            "words": [
+                "juice",
+                "I",
+                "drink"
+            ],
+            "question": "Order the sentence.",
+            "answer": "I drink juice",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "I drink juice.",
+            "media": {}
+        },
+        {
+            "id": "b3_13",
+            "type": "matching",
+            "words": [
+                "shirt",
+                "wear",
+                "bed",
+                "sleep"
+            ],
+            "question": "Match object to action.",
+            "pairs": [
+                {
+                    "left": "shirt",
+                    "right": "wear"
+                },
+                {
+                    "left": "bed",
+                    "right": "sleep"
+                }
+            ],
+            "answer": [
+                [
+                    "shirt",
+                    "wear"
+                ],
+                [
+                    "bed",
+                    "sleep"
+                ]
+            ],
+            "hint": "Daily actions",
+            "voice_input": false,
+            "example_sentence": "Wear shirt. Sleep in bed.",
+            "media": {}
+        },
+        {
+            "id": "b3_14",
+            "type": "multiple_choice",
+            "options": [
+                "cook",
+                "wash",
+                "sleep"
+            ],
+            "question": "Select 'cook'.",
+            "answer": "cook",
+            "hint": "Make food",
+            "voice_input": false,
+            "example_sentence": "I cook rice.",
+            "media": {}
+        },
+        {
+            "id": "b3_15",
+            "type": "tap_fill",
+            "options": [
+                "hand",
+                "run",
+                "jump",
+                "sleep"
+            ],
+            "question": "See the ___.",
+            "answer": "hand",
+            "hint": "Body part",
+            "voice_input": false,
+            "example_sentence": "See the hand.",
+            "media": {}
+        },
+        {
+            "id": "b3_16",
+            "type": "sentence_ordering",
+            "words": [
+                "man",
+                "wakes",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The man wakes",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The man wakes.",
+            "media": {}
+        },
+        {
+            "id": "b3_17",
+            "type": "pronunciation",
+            "words": [
+                "wash"
+            ],
+            "question": "Say 'wash'.",
+            "answer": "wash",
+            "hint": "Clean with water",
+            "voice_input": true,
+            "example_sentence": "Wash the fruit.",
+            "media": {}
+        },
+        {
+            "id": "b3_18",
+            "type": "matching",
+            "words": [
+                "fruit",
+                "eat",
+                "juice",
+                "drink"
+            ],
+            "question": "Match food to action.",
+            "pairs": [
+                {
+                    "left": "fruit",
+                    "right": "eat"
+                },
+                {
+                    "left": "juice",
+                    "right": "drink"
+                }
+            ],
+            "answer": [
+                [
+                    "fruit",
+                    "eat"
+                ],
+                [
+                    "juice",
+                    "drink"
+                ]
+            ],
+            "hint": "Eat vs Drink",
+            "voice_input": false,
+            "example_sentence": "Eat fruit. Drink juice.",
+            "media": {}
+        },
+        {
+            "id": "b3_19",
+            "type": "multiple_choice",
+            "options": [
+                "shirt",
+                "rice",
+                "leg"
+            ],
+            "question": "Select the clothes.",
+            "answer": "shirt",
+            "hint": "You wear this",
+            "voice_input": false,
+            "example_sentence": "I wear a shirt.",
+            "media": {}
+        },
+        {
+            "id": "b4_01",
+            "type": "multiple_choice",
+            "options": [
+                "shoes",
+                "socks",
+                "hat"
+            ],
+            "question": "Select the shoes.",
+            "answer": "shoes",
+            "hint": "For feet",
+            "voice_input": false,
+            "example_sentence": "I wear shoes.",
+            "media": {}
+        },
+        {
+            "id": "b4_02",
+            "type": "tap_fill",
+            "options": [
+                "pants",
+                "apple",
+                "car",
+                "tree"
+            ],
+            "question": "The boy wears ___.",
+            "answer": "pants",
+            "hint": "Leg clothing",
+            "voice_input": false,
+            "example_sentence": "The boy wears pants.",
+            "media": {}
+        },
+        {
+            "id": "b4_03",
+            "type": "sentence_ordering",
+            "words": [
+                "box",
+                "Open",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Open the box",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Open the box.",
+            "media": {}
+        },
+        {
+            "id": "b4_04",
+            "type": "matching",
+            "words": [
+                "key",
+                "box",
+                "phone",
+                "bag"
+            ],
+            "question": "Match related items.",
+            "pairs": [
+                {
+                    "left": "key",
+                    "right": "box"
+                },
+                {
+                    "left": "phone",
+                    "right": "bag"
+                }
+            ],
+            "answer": [
+                [
+                    "key",
+                    "box"
+                ],
+                [
+                    "phone",
+                    "bag"
+                ]
+            ],
+            "hint": "Things we use",
+            "voice_input": false,
+            "example_sentence": "Key for box. Phone in bag.",
+            "media": {}
+        },
+        {
+            "id": "b4_05",
+            "type": "pronunciation",
+            "words": [
+                "rain"
+            ],
+            "question": "Say 'rain'.",
+            "answer": "rain",
+            "hint": "Water from sky",
+            "voice_input": true,
+            "example_sentence": "The rain comes.",
+            "media": {}
+        },
+        {
+            "id": "b4_06",
+            "type": "multiple_choice",
+            "options": [
+                "star",
+                "sky",
+                "park"
+            ],
+            "question": "Select the star.",
+            "answer": "star",
+            "hint": "Night light",
+            "voice_input": false,
+            "example_sentence": "See the star.",
+            "media": {}
+        },
+        {
+            "id": "b4_07",
+            "type": "tap_fill",
+            "options": [
+                "park",
+                "apple",
+                "pen",
+                "hat"
+            ],
+            "question": "Go to the ___.",
+            "answer": "park",
+            "hint": "Place to play",
+            "voice_input": false,
+            "example_sentence": "Go to the park.",
+            "media": {}
+        },
+        {
+            "id": "b4_08",
+            "type": "sentence_ordering",
+            "words": [
+                "to",
+                "girl",
+                "The",
+                "goes",
+                "park"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The girl goes to park",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "The girl goes to park.",
+            "media": {}
+        },
+        {
+            "id": "b4_09",
+            "type": "matching",
+            "words": [
+                "socks",
+                "shoes",
+                "hat",
+                "head"
+            ],
+            "question": "Match clothing to body.",
+            "pairs": [
+                {
+                    "left": "socks",
+                    "right": "shoes"
+                },
+                {
+                    "left": "hat",
+                    "right": "head"
+                }
+            ],
+            "answer": [
+                [
+                    "socks",
+                    "shoes"
+                ],
+                [
+                    "hat",
+                    "head"
+                ]
+            ],
+            "hint": "Where they go",
+            "voice_input": false,
+            "example_sentence": "Socks in shoes. Hat on head.",
+            "media": {}
+        },
+        {
+            "id": "b4_10",
+            "type": "multiple_choice",
+            "options": [
+                "computer",
+                "phone",
+                "clock"
+            ],
+            "question": "Select the computer.",
+            "answer": "computer",
+            "hint": "Machine for work",
+            "voice_input": false,
+            "example_sentence": "Use the computer.",
+            "media": {}
+        },
+        {
+            "id": "b4_11",
+            "type": "tap_fill",
+            "options": [
+                "clock",
+                "run",
+                "jump",
+                "sleep"
+            ],
+            "question": "Look at the ___.",
+            "answer": "clock",
+            "hint": "Tells time",
+            "voice_input": false,
+            "example_sentence": "Look at the clock.",
+            "media": {}
+        },
+        {
+            "id": "b4_12",
+            "type": "sentence_ordering",
+            "words": [
+                "stars",
+                "See",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "See the stars",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "See the stars.",
+            "media": {}
+        },
+        {
+            "id": "b4_13",
+            "type": "matching",
+            "words": [
+                "street",
+                "car",
+                "park",
+                "walk"
+            ],
+            "question": "Match place to item/action.",
+            "pairs": [
+                {
+                    "left": "street",
+                    "right": "car"
+                },
+                {
+                    "left": "park",
+                    "right": "walk"
+                }
+            ],
+            "answer": [
+                [
+                    "street",
+                    "car"
+                ],
+                [
+                    "park",
+                    "walk"
+                ]
+            ],
+            "hint": "Where things are",
+            "voice_input": false,
+            "example_sentence": "Car on street. Walk in park.",
+            "media": {}
+        },
+        {
+            "id": "b4_14",
+            "type": "multiple_choice",
+            "options": [
+                "dress",
+                "pants",
+                "shoes"
+            ],
+            "question": "Select the dress.",
+            "answer": "dress",
+            "hint": "Clothing",
+            "voice_input": false,
+            "example_sentence": "She wears a dress.",
+            "media": {}
+        },
+        {
+            "id": "b4_15",
+            "type": "tap_fill",
+            "options": [
+                "Open",
+                "Eat",
+                "Drink",
+                "Wear"
+            ],
+            "question": "___ the door.",
+            "answer": "Open",
+            "hint": "Action",
+            "voice_input": false,
+            "example_sentence": "Open the door.",
+            "media": {}
+        },
+        {
+            "id": "b4_16",
+            "type": "sentence_ordering",
+            "words": [
+                "comes",
+                "rain",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The rain comes",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The rain comes.",
+            "media": {}
+        },
+        {
+            "id": "b4_17",
+            "type": "pronunciation",
+            "words": [
+                "shoes"
+            ],
+            "question": "Say 'shoes'.",
+            "answer": "shoes",
+            "hint": "Footwear",
+            "voice_input": true,
+            "example_sentence": "I like shoes.",
+            "media": {}
+        },
+        {
+            "id": "b4_18",
+            "type": "matching",
+            "words": [
+                "computer",
+                "phone",
+                "dress",
+                "pants"
+            ],
+            "question": "Match similar items.",
+            "pairs": [
+                {
+                    "left": "computer",
+                    "right": "phone"
+                },
+                {
+                    "left": "dress",
+                    "right": "pants"
+                }
+            ],
+            "answer": [
+                [
+                    "computer",
+                    "phone"
+                ],
+                [
+                    "dress",
+                    "pants"
+                ]
+            ],
+            "hint": "Tech and Clothes",
+            "voice_input": false,
+            "example_sentence": "",
+            "media": {}
+        },
+        {
+            "id": "b4_19",
+            "type": "multiple_choice",
+            "options": [
+                "hat",
+                "box",
+                "key"
+            ],
+            "question": "Select the one you wear.",
+            "answer": "hat",
+            "hint": "On your head",
+            "voice_input": false,
+            "example_sentence": "Wear a hat.",
+            "media": {}
+        },
+        {
+            "id": "b5_01",
+            "type": "multiple_choice",
+            "options": [
+                "shop",
+                "farm",
+                "cow"
+            ],
+            "question": "Select the place.",
+            "answer": "shop",
+            "hint": "Buy things here",
+            "voice_input": false,
+            "example_sentence": "Go to the shop.",
+            "media": {}
+        },
+        {
+            "id": "b5_02",
+            "type": "tap_fill",
+            "options": [
+                "Buy",
+                "Sleep",
+                "Run",
+                "Swim"
+            ],
+            "question": "___ the bread.",
+            "answer": "Buy",
+            "hint": "Pay for food",
+            "voice_input": false,
+            "example_sentence": "Buy the bread.",
+            "media": {}
+        },
+        {
+            "id": "b5_03",
+            "type": "sentence_ordering",
+            "words": [
+                "money",
+                "Give",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Give the money",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Give the money.",
+            "media": {}
+        },
+        {
+            "id": "b5_04",
+            "type": "matching",
+            "words": [
+                "coffee",
+                "cup",
+                "water",
+                "glass"
+            ],
+            "question": "Match drink to container.",
+            "pairs": [
+                {
+                    "left": "coffee",
+                    "right": "cup"
+                },
+                {
+                    "left": "water",
+                    "right": "glass"
+                }
+            ],
+            "answer": [
+                [
+                    "coffee",
+                    "cup"
+                ],
+                [
+                    "water",
+                    "glass"
+                ]
+            ],
+            "hint": "Hot vs Cold",
+            "voice_input": false,
+            "example_sentence": "Coffee in cup. Water in glass.",
+            "media": {}
+        },
+        {
+            "id": "b5_05",
+            "type": "pronunciation",
+            "words": [
+                "money"
+            ],
+            "question": "Say 'money'.",
+            "answer": "money",
+            "hint": "To buy things",
+            "voice_input": true,
+            "example_sentence": "I have money.",
+            "media": {}
+        },
+        {
+            "id": "b5_06",
+            "type": "multiple_choice",
+            "options": [
+                "spoon",
+                "plate",
+                "cup"
+            ],
+            "question": "Select the tool for eating.",
+            "answer": "spoon",
+            "hint": "Use with soup",
+            "voice_input": false,
+            "example_sentence": "Use a spoon.",
+            "media": {}
+        },
+        {
+            "id": "b5_07",
+            "type": "tap_fill",
+            "options": [
+                "plate",
+                "cow",
+                "sun",
+                "moon"
+            ],
+            "question": "The cake is on the ___.",
+            "answer": "plate",
+            "hint": "Flat dish",
+            "voice_input": false,
+            "example_sentence": "The cake is on the plate.",
+            "media": {}
+        },
+        {
+            "id": "b5_08",
+            "type": "sentence_ordering",
+            "words": [
+                "tea",
+                "Drink",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Drink the tea",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Drink the tea.",
+            "media": {}
+        },
+        {
+            "id": "b5_09",
+            "type": "matching",
+            "words": [
+                "cow",
+                "farm",
+                "bread",
+                "shop"
+            ],
+            "question": "Match item to place.",
+            "pairs": [
+                {
+                    "left": "cow",
+                    "right": "farm"
+                },
+                {
+                    "left": "bread",
+                    "right": "shop"
+                }
+            ],
+            "answer": [
+                [
+                    "cow",
+                    "farm"
+                ],
+                [
+                    "bread",
+                    "shop"
+                ]
+            ],
+            "hint": "Origins",
+            "voice_input": false,
+            "example_sentence": "Cow on farm. Bread at shop.",
+            "media": {}
+        },
+        {
+            "id": "b5_10",
+            "type": "multiple_choice",
+            "options": [
+                "chicken",
+                "cow",
+                "grass"
+            ],
+            "question": "Select the bird.",
+            "answer": "chicken",
+            "hint": "Farm animal",
+            "voice_input": false,
+            "example_sentence": "The chicken runs.",
+            "media": {}
+        },
+        {
+            "id": "b5_11",
+            "type": "tap_fill",
+            "options": [
+                "cow",
+                "plate",
+                "spoon",
+                "cup"
+            ],
+            "question": "The ___ eats grass.",
+            "answer": "cow",
+            "hint": "Large animal",
+            "voice_input": false,
+            "example_sentence": "The cow eats grass.",
+            "media": {}
+        },
+        {
+            "id": "b5_12",
+            "type": "sentence_ordering",
+            "words": [
+                "farm",
+                "on",
+                "Help",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Help on the farm",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Help on the farm.",
+            "media": {}
+        },
+        {
+            "id": "b5_13",
+            "type": "matching",
+            "words": [
+                "bread",
+                "cake",
+                "tea",
+                "coffee"
+            ],
+            "question": "Match food and drink.",
+            "pairs": [
+                {
+                    "left": "bread",
+                    "right": "cake"
+                },
+                {
+                    "left": "tea",
+                    "right": "coffee"
+                }
+            ],
+            "answer": [
+                [
+                    "bread",
+                    "cake"
+                ],
+                [
+                    "tea",
+                    "coffee"
+                ]
+            ],
+            "hint": "Categories",
+            "voice_input": false,
+            "example_sentence": "Eat bread. Drink tea.",
+            "media": {}
+        },
+        {
+            "id": "b5_14",
+            "type": "multiple_choice",
+            "options": [
+                "flower",
+                "grass",
+                "tree"
+            ],
+            "question": "Select the small plant.",
+            "answer": "flower",
+            "hint": "Beautiful plant",
+            "voice_input": false,
+            "example_sentence": "See the flower.",
+            "media": {}
+        },
+        {
+            "id": "b5_15",
+            "type": "tap_fill",
+            "options": [
+                "Give",
+                "Sleep",
+                "Run",
+                "Swim"
+            ],
+            "question": "___ the money.",
+            "answer": "Give",
+            "hint": "Hand over",
+            "voice_input": false,
+            "example_sentence": "Give the money.",
+            "media": {}
+        },
+        {
+            "id": "b5_16",
+            "type": "sentence_ordering",
+            "words": [
+                "drinks",
+                "coffee",
+                "The",
+                "woman"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The woman drinks coffee",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "The woman drinks coffee.",
+            "media": {}
+        },
+        {
+            "id": "b5_17",
+            "type": "pronunciation",
+            "words": [
+                "bread"
+            ],
+            "question": "Say 'bread'.",
+            "answer": "bread",
+            "hint": "Food",
+            "voice_input": true,
+            "example_sentence": "Eat bread.",
+            "media": {}
+        },
+        {
+            "id": "b5_18",
+            "type": "matching",
+            "words": [
+                "plate",
+                "spoon",
+                "cup",
+                "glass"
+            ],
+            "question": "Match container to tool.",
+            "pairs": [
+                {
+                    "left": "plate",
+                    "right": "spoon"
+                },
+                {
+                    "left": "cup",
+                    "right": "glass"
+                }
+            ],
+            "answer": [
+                [
+                    "plate",
+                    "spoon"
+                ],
+                [
+                    "cup",
+                    "glass"
+                ]
+            ],
+            "hint": "Eating vs Drinking items",
+            "voice_input": false,
+            "example_sentence": "Plate and spoon. Cup and glass.",
+            "media": {}
+        },
+        {
+            "id": "b5_19",
+            "type": "multiple_choice",
+            "options": [
+                "glass",
+                "plate",
+                "spoon"
+            ],
+            "question": "Select the drink container.",
+            "answer": "glass",
+            "hint": "Drink water from this",
+            "voice_input": false,
+            "example_sentence": "Water in the glass.",
+            "media": {}
+        },
+        {
+            "id": "b6_01",
+            "type": "multiple_choice",
+            "options": [
+                "plane",
+                "boat",
+                "train"
+            ],
+            "question": "Select the air transport.",
+            "answer": "plane",
+            "hint": "Flies in sky",
+            "voice_input": false,
+            "example_sentence": "The plane flies.",
+            "media": {}
+        },
+        {
+            "id": "b6_02",
+            "type": "tap_fill",
+            "options": [
+                "flies",
+                "swims",
+                "walks",
+                "talks"
+            ],
+            "question": "The plane ___.",
+            "answer": "flies",
+            "hint": "Action in air",
+            "voice_input": false,
+            "example_sentence": "The plane flies.",
+            "media": {}
+        },
+        {
+            "id": "b6_03",
+            "type": "sentence_ordering",
+            "words": [
+                "flies",
+                "plane",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The plane flies",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The plane flies.",
+            "media": {}
+        },
+        {
+            "id": "b6_04",
+            "type": "matching",
+            "words": [
+                "plane",
+                "fly",
+                "doctor",
+                "help"
+            ],
+            "question": "Match subject to action.",
+            "pairs": [
+                {
+                    "left": "plane",
+                    "right": "fly"
+                },
+                {
+                    "left": "doctor",
+                    "right": "help"
+                }
+            ],
+            "answer": [
+                [
+                    "plane",
+                    "fly"
+                ],
+                [
+                    "doctor",
+                    "help"
+                ]
+            ],
+            "hint": "What they do",
+            "voice_input": false,
+            "example_sentence": "Plane flies. Doctor helps.",
+            "media": {}
+        },
+        {
+            "id": "b6_05",
+            "type": "pronunciation",
+            "words": [
+                "beach"
+            ],
+            "question": "Say 'beach'.",
+            "answer": "beach",
+            "hint": "Sand and sea",
+            "voice_input": true,
+            "example_sentence": "Go to the beach.",
+            "media": {}
+        },
+        {
+            "id": "b6_06",
+            "type": "multiple_choice",
+            "options": [
+                "mountain",
+                "river",
+                "sea"
+            ],
+            "question": "Select the high place.",
+            "answer": "mountain",
+            "hint": "Tall nature",
+            "voice_input": false,
+            "example_sentence": "See the mountain.",
+            "media": {}
+        },
+        {
+            "id": "b6_07",
+            "type": "tap_fill",
+            "options": [
+                "sea",
+                "mountain",
+                "home",
+                "sky"
+            ],
+            "question": "Swim in the ___.",
+            "answer": "sea",
+            "hint": "Big water",
+            "voice_input": false,
+            "example_sentence": "Swim in the sea.",
+            "media": {}
+        },
+        {
+            "id": "b6_08",
+            "type": "sentence_ordering",
+            "words": [
+                "the",
+                "Wait",
+                "at",
+                "river"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Wait at the river",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Wait at the river.",
+            "media": {}
+        },
+        {
+            "id": "b6_09",
+            "type": "matching",
+            "words": [
+                "doctor",
+                "hospital",
+                "family",
+                "home"
+            ],
+            "question": "Match person to place.",
+            "pairs": [
+                {
+                    "left": "doctor",
+                    "right": "hospital"
+                },
+                {
+                    "left": "family",
+                    "right": "home"
+                }
+            ],
+            "answer": [
+                [
+                    "doctor",
+                    "hospital"
+                ],
+                [
+                    "family",
+                    "home"
+                ]
+            ],
+            "hint": "Where they are",
+            "voice_input": false,
+            "example_sentence": "Doctor at hospital. Family at home.",
+            "media": {}
+        },
+        {
+            "id": "b6_10",
+            "type": "multiple_choice",
+            "options": [
+                "doctor",
+                "nurse",
+                "baby"
+            ],
+            "question": "Select the doctor.",
+            "answer": "doctor",
+            "hint": "Medical expert",
+            "voice_input": false,
+            "example_sentence": "The doctor helps.",
+            "media": {}
+        },
+        {
+            "id": "b6_11",
+            "type": "tap_fill",
+            "options": [
+                "helps",
+                "flies",
+                "shines",
+                "sleeps"
+            ],
+            "question": "The nurse ___.",
+            "answer": "helps",
+            "hint": "Assist",
+            "voice_input": false,
+            "example_sentence": "The nurse helps.",
+            "media": {}
+        },
+        {
+            "id": "b6_12",
+            "type": "sentence_ordering",
+            "words": [
+                "nurse",
+                "helps",
+                "The",
+                "baby"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The nurse helps baby",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "The nurse helps baby.",
+            "media": {}
+        },
+        {
+            "id": "b6_13",
+            "type": "matching",
+            "words": [
+                "boat",
+                "river",
+                "bicycle",
+                "home"
+            ],
+            "question": "Match item to place.",
+            "pairs": [
+                {
+                    "left": "boat",
+                    "right": "river"
+                },
+                {
+                    "left": "bicycle",
+                    "right": "home"
+                }
+            ],
+            "answer": [
+                [
+                    "boat",
+                    "river"
+                ],
+                [
+                    "bicycle",
+                    "home"
+                ]
+            ],
+            "hint": "Where things go",
+            "voice_input": false,
+            "example_sentence": "Boat on river. Bicycle at home.",
+            "media": {}
+        },
+        {
+            "id": "b6_14",
+            "type": "multiple_choice",
+            "options": [
+                "bicycle",
+                "train",
+                "plane"
+            ],
+            "question": "Select the bicycle.",
+            "answer": "bicycle",
+            "hint": "Two wheels",
+            "voice_input": false,
+            "example_sentence": "Ride the bicycle.",
+            "media": {}
+        },
+        {
+            "id": "b6_15",
+            "type": "tap_fill",
+            "options": [
+                "talks",
+                "flies",
+                "swims",
+                "shines"
+            ],
+            "question": "The family ___.",
+            "answer": "talks",
+            "hint": "Speak",
+            "voice_input": false,
+            "example_sentence": "The family talks.",
+            "media": {}
+        },
+        {
+            "id": "b6_16",
+            "type": "sentence_ordering",
+            "words": [
+                "friend",
+                "to",
+                "Talk",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Talk to the friend",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Talk to the friend.",
+            "media": {}
+        },
+        {
+            "id": "b6_17",
+            "type": "pronunciation",
+            "words": [
+                "hospital"
+            ],
+            "question": "Say 'hospital'.",
+            "answer": "hospital",
+            "hint": "Place for sick people",
+            "voice_input": true,
+            "example_sentence": "Go to the hospital.",
+            "media": {}
+        },
+        {
+            "id": "b6_18",
+            "type": "matching",
+            "words": [
+                "baby",
+                "family",
+                "doctor",
+                "nurse"
+            ],
+            "question": "Match related people.",
+            "pairs": [
+                {
+                    "left": "baby",
+                    "right": "family"
+                },
+                {
+                    "left": "doctor",
+                    "right": "nurse"
+                }
+            ],
+            "answer": [
+                [
+                    "baby",
+                    "family"
+                ],
+                [
+                    "doctor",
+                    "nurse"
+                ]
+            ],
+            "hint": "Groups",
+            "voice_input": false,
+            "example_sentence": "Baby in family. Doctor and nurse.",
+            "media": {}
+        },
+        {
+            "id": "b6_19",
+            "type": "multiple_choice",
+            "options": [
+                "home",
+                "hospital",
+                "beach"
+            ],
+            "question": "Select 'home'.",
+            "answer": "home",
+            "hint": "Where you live",
+            "voice_input": false,
+            "example_sentence": "Go home.",
+            "media": {}
+        },
+        {
+            "id": "b7_01",
+            "type": "multiple_choice",
+            "options": [
+                "guitar",
+                "radio",
+                "ball"
+            ],
+            "question": "Select the guitar.",
+            "answer": "guitar",
+            "hint": "Music instrument",
+            "voice_input": false,
+            "example_sentence": "Play the guitar.",
+            "media": {}
+        },
+        {
+            "id": "b7_02",
+            "type": "tap_fill",
+            "options": [
+                "game",
+                "guitar",
+                "robot",
+                "sun"
+            ],
+            "question": "Play the ___.",
+            "answer": "game",
+            "hint": "Fun activity",
+            "voice_input": false,
+            "example_sentence": "Play the game.",
+            "media": {}
+        },
+        {
+            "id": "b7_03",
+            "type": "sentence_ordering",
+            "words": [
+                "radio",
+                "to",
+                "Listen",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "Listen to the radio",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "Listen to the radio.",
+            "media": {}
+        },
+        {
+            "id": "b7_04",
+            "type": "matching",
+            "words": [
+                "sun",
+                "day",
+                "moon",
+                "night"
+            ],
+            "question": "Match object to time.",
+            "pairs": [
+                {
+                    "left": "sun",
+                    "right": "day"
+                },
+                {
+                    "left": "moon",
+                    "right": "night"
+                }
+            ],
+            "answer": [
+                [
+                    "sun",
+                    "day"
+                ],
+                [
+                    "moon",
+                    "night"
+                ]
+            ],
+            "hint": "When you see them",
+            "voice_input": false,
+            "example_sentence": "Sun in day. Moon at night.",
+            "media": {}
+        },
+        {
+            "id": "b7_05",
+            "type": "pronunciation",
+            "words": [
+                "robot"
+            ],
+            "question": "Say 'robot'.",
+            "answer": "robot",
+            "hint": "Machine",
+            "voice_input": true,
+            "example_sentence": "The robot moves.",
+            "media": {}
+        },
+        {
+            "id": "b7_06",
+            "type": "multiple_choice",
+            "options": [
+                "ball",
+                "toy",
+                "game"
+            ],
+            "question": "Select the round toy.",
+            "answer": "ball",
+            "hint": "Play catch",
+            "voice_input": false,
+            "example_sentence": "Throw the ball.",
+            "media": {}
+        },
+        {
+            "id": "b7_07",
+            "type": "tap_fill",
+            "options": [
+                "moves",
+                "eats",
+                "sleeps",
+                "drinks"
+            ],
+            "question": "The robot ___.",
+            "answer": "moves",
+            "hint": "Action",
+            "voice_input": false,
+            "example_sentence": "The robot moves.",
+            "media": {}
+        },
+        {
+            "id": "b7_08",
+            "type": "sentence_ordering",
+            "words": [
+                "friend",
+                "See",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "See the friend",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "See the friend.",
+            "media": {}
+        },
+        {
+            "id": "b7_09",
+            "type": "matching",
+            "words": [
+                "guitar",
+                "play",
+                "radio",
+                "listen"
+            ],
+            "question": "Match object to action.",
+            "pairs": [
+                {
+                    "left": "guitar",
+                    "right": "play"
+                },
+                {
+                    "left": "radio",
+                    "right": "listen"
+                }
+            ],
+            "answer": [
+                [
+                    "guitar",
+                    "play"
+                ],
+                [
+                    "radio",
+                    "listen"
+                ]
+            ],
+            "hint": "Music actions",
+            "voice_input": false,
+            "example_sentence": "Play guitar. Listen to radio.",
+            "media": {}
+        },
+        {
+            "id": "b7_10",
+            "type": "multiple_choice",
+            "options": [
+                "night",
+                "day",
+                "sun"
+            ],
+            "question": "Select 'night'.",
+            "answer": "night",
+            "hint": "Dark time",
+            "voice_input": false,
+            "example_sentence": "Sleep at night.",
+            "media": {}
+        },
+        {
+            "id": "b7_11",
+            "type": "tap_fill",
+            "options": [
+                "star",
+                "day",
+                "grass",
+                "river"
+            ],
+            "question": "See the ___.",
+            "answer": "star",
+            "hint": "Light in sky",
+            "voice_input": false,
+            "example_sentence": "See the star.",
+            "media": {}
+        },
+        {
+            "id": "b7_12",
+            "type": "sentence_ordering",
+            "words": [
+                "sun",
+                "See",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "See the sun",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "See the sun.",
+            "media": {}
+        },
+        {
+            "id": "b7_13",
+            "type": "matching",
+            "words": [
+                "ball",
+                "play",
+                "robot",
+                "move"
+            ],
+            "question": "Match object to action.",
+            "pairs": [
+                {
+                    "left": "ball",
+                    "right": "play"
+                },
+                {
+                    "left": "robot",
+                    "right": "move"
+                }
+            ],
+            "answer": [
+                [
+                    "ball",
+                    "play"
+                ],
+                [
+                    "robot",
+                    "move"
+                ]
+            ],
+            "hint": "Actions",
+            "voice_input": false,
+            "example_sentence": "Play with ball. Robot moves.",
+            "media": {}
+        },
+        {
+            "id": "b7_14",
+            "type": "multiple_choice",
+            "options": [
+                "toy",
+                "ball",
+                "guitar"
+            ],
+            "question": "Select the toy.",
+            "answer": "toy",
+            "hint": "For playing",
+            "voice_input": false,
+            "example_sentence": "It is a toy.",
+            "media": {}
+        },
+        {
+            "id": "b7_15",
+            "type": "tap_fill",
+            "options": [
+                "Play",
+                "Eat",
+                "Sleep",
+                "Fly"
+            ],
+            "question": "___ with friend.",
+            "answer": "Play",
+            "hint": "Have fun",
+            "voice_input": false,
+            "example_sentence": "Play with friend.",
+            "media": {}
+        },
+        {
+            "id": "b7_16",
+            "type": "sentence_ordering",
+            "words": [
+                "moon",
+                "The",
+                "moves"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The moon moves",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The moon moves.",
+            "media": {}
+        },
+        {
+            "id": "b8_01",
+            "type": "multiple_choice",
+            "options": [
+                "apple",
+                "boat",
+                "chair"
+            ],
+            "question": "Which one is for travel?",
+            "answer": "boat",
+            "hint": "On water",
+            "voice_input": false,
+            "example_sentence": "The boat is on the river.",
+            "media": {}
+        },
+        {
+            "id": "b8_02",
+            "type": "multiple_choice",
+            "options": [
+                "doctor",
+                "tree",
+                "spoon"
+            ],
+            "question": "Who works in a hospital?",
+            "answer": "doctor",
+            "hint": "Helps sick people",
+            "voice_input": false,
+            "example_sentence": "The doctor helps.",
+            "media": {}
+        },
+        {
+            "id": "b8_03",
+            "type": "multiple_choice",
+            "options": [
+                "shirt",
+                "radio",
+                "grass"
+            ],
+            "question": "What do you wear?",
+            "answer": "shirt",
+            "hint": "Clothes",
+            "voice_input": false,
+            "example_sentence": "I wear a shirt.",
+            "media": {}
+        },
+        {
+            "id": "b8_04",
+            "type": "multiple_choice",
+            "options": [
+                "sun",
+                "coffee",
+                "book"
+            ],
+            "question": "What do you drink?",
+            "answer": "coffee",
+            "hint": "Hot drink",
+            "voice_input": false,
+            "example_sentence": "I drink coffee.",
+            "media": {}
+        },
+        {
+            "id": "b8_05",
+            "type": "multiple_choice",
+            "options": [
+                "car",
+                "leg",
+                "door"
+            ],
+            "question": "Which one is a body part?",
+            "answer": "leg",
+            "hint": "For walking",
+            "voice_input": false,
+            "example_sentence": "My leg hurts.",
+            "media": {}
+        },
+        {
+            "id": "b8_06",
+            "type": "multiple_choice",
+            "options": [
+                "fish",
+                "bed",
+                "key"
+            ],
+            "question": "Which one swims?",
+            "answer": "fish",
+            "hint": "Animal in water",
+            "voice_input": false,
+            "example_sentence": "The fish swims.",
+            "media": {}
+        },
+        {
+            "id": "b8_07",
+            "type": "sentence_ordering",
+            "words": [
+                "doctor",
+                "The",
+                "talks"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The doctor talks",
+            "hint": "Subject + Verb",
+            "voice_input": false,
+            "example_sentence": "The doctor talks.",
+            "media": {}
+        },
+        {
+            "id": "b8_08",
+            "type": "sentence_ordering",
+            "words": [
+                "fish",
+                "sea",
+                "in",
+                "swims",
+                "The",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The fish swims in the sea",
+            "hint": "Animal + Action + Location",
+            "voice_input": false,
+            "example_sentence": "The fish swims in the sea.",
+            "media": {}
+        },
+        {
+            "id": "b8_09",
+            "type": "sentence_ordering",
+            "words": [
+                "wash",
+                "cup",
+                "I",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "I wash the cup",
+            "hint": "Subject + Verb + Object",
+            "voice_input": false,
+            "example_sentence": "I wash the cup.",
+            "media": {}
+        },
+        {
+            "id": "b8_10",
+            "type": "sentence_ordering",
+            "words": [
+                "sun",
+                "shines",
+                "The"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The sun shines",
+            "hint": "Description",
+            "voice_input": false,
+            "example_sentence": "The sun shines.",
+            "media": {}
+        },
+        {
+            "id": "b8_11",
+            "type": "matching",
+            "words": [
+                "doctor",
+                "hospital",
+                "bread",
+                "eat"
+            ],
+            "question": "Match person/object to place/action.",
+            "pairs": [
+                {
+                    "left": "doctor",
+                    "right": "hospital"
+                },
+                {
+                    "left": "bread",
+                    "right": "eat"
+                }
+            ],
+            "answer": [
+                [
+                    "doctor",
+                    "hospital"
+                ],
+                [
+                    "bread",
+                    "eat"
+                ]
+            ],
+            "hint": "Job location and Food action",
+            "voice_input": false,
+            "example_sentence": "Doctor in hospital. Eat bread.",
+            "media": {}
+        },
+        {
+            "id": "b8_12",
+            "type": "matching",
+            "words": [
+                "bird",
+                "fly",
+                "fish",
+                "swim"
+            ],
+            "question": "Match animal to action.",
+            "pairs": [
+                {
+                    "left": "bird",
+                    "right": "fly"
+                },
+                {
+                    "left": "fish",
+                    "right": "swim"
+                }
+            ],
+            "answer": [
+                [
+                    "bird",
+                    "fly"
+                ],
+                [
+                    "fish",
+                    "swim"
+                ]
+            ],
+            "hint": "Movement",
+            "voice_input": false,
+            "example_sentence": "Birds fly. Fish swim.",
+            "media": {}
+        },
+        {
+            "id": "b8_13",
+            "type": "matching",
+            "words": [
+                "sun",
+                "day",
+                "moon",
+                "night"
+            ],
+            "question": "Match object to time.",
+            "pairs": [
+                {
+                    "left": "sun",
+                    "right": "day"
+                },
+                {
+                    "left": "moon",
+                    "right": "night"
+                }
+            ],
+            "answer": [
+                [
+                    "sun",
+                    "day"
+                ],
+                [
+                    "moon",
+                    "night"
+                ]
+            ],
+            "hint": "Sky objects",
+            "voice_input": false,
+            "example_sentence": "Sun in day. Moon at night.",
+            "media": {}
+        },
+        {
+            "id": "b8_14",
+            "type": "matching",
+            "words": [
+                "pen",
+                "write",
+                "book",
+                "read"
+            ],
+            "question": "Match object to action.",
+            "pairs": [
+                {
+                    "left": "pen",
+                    "right": "write"
+                },
+                {
+                    "left": "book",
+                    "right": "read"
+                }
+            ],
+            "answer": [
+                [
+                    "pen",
+                    "write"
+                ],
+                [
+                    "book",
+                    "read"
+                ]
+            ],
+            "hint": "Tools",
+            "voice_input": false,
+            "example_sentence": "Write with pen. Read book.",
+            "media": {}
+        },
+        {
+            "id": "b8_15",
+            "type": "tap_fill",
+            "options": [
+                "drink",
+                "eat",
+                "walk",
+                "wear"
+            ],
+            "question": "I ___ water.",
+            "answer": "drink",
+            "hint": "Consume liquid",
+            "voice_input": false,
+            "example_sentence": "I drink water.",
+            "media": {}
+        },
+        {
+            "id": "b8_16",
+            "type": "tap_fill",
+            "options": [
+                "runs",
+                "flies",
+                "shines",
+                "opens"
+            ],
+            "question": "The boy ___.",
+            "answer": "runs",
+            "hint": "Fast movement",
+            "voice_input": false,
+            "example_sentence": "The boy runs.",
+            "media": {}
+        },
+        {
+            "id": "b8_17",
+            "type": "tap_fill",
+            "options": [
+                "Help",
+                "Eat",
+                "Drink",
+                "Sleep"
+            ],
+            "question": "___ the friend.",
+            "answer": "Help",
+            "hint": "Assist someone",
+            "voice_input": false,
+            "example_sentence": "Help the friend.",
+            "media": {}
+        },
+        {
+            "id": "b8_18",
+            "type": "tap_fill",
+            "options": [
+                "play",
+                "sleep",
+                "eat",
+                "fly"
+            ],
+            "question": "We ___ a game.",
+            "answer": "play",
+            "hint": "Have fun",
+            "voice_input": false,
+            "example_sentence": "We play a game.",
+            "media": {}
+        },
+        {
+            "id": "b8_19",
+            "type": "pronunciation",
+            "words": [
+                "computer"
+            ],
+            "question": "Say 'computer'.",
+            "answer": "computer",
+            "hint": "Electronic device",
+            "voice_input": true,
+            "example_sentence": "I use a computer.",
+            "media": {}
+        },
+        {
+            "id": "b8_20",
+            "type": "pronunciation",
+            "words": [
+                "hospital"
+            ],
+            "question": "Say 'hospital'.",
+            "answer": "hospital",
+            "hint": "Place for sick people",
+            "voice_input": true,
+            "example_sentence": "Go to the hospital.",
+            "media": {}
+        },
+        {
+            "id": "b9_01",
+            "type": "multiple_choice",
+            "options": [
+                "doctor",
+                "robot",
+                "chair"
+            ],
+            "question": "Find the person who helps.",
+            "answer": "doctor",
+            "hint": "Works in hospital",
+            "voice_input": false,
+            "example_sentence": "The doctor helps.",
+            "media": {}
+        },
+        {
+            "id": "b9_02",
+            "type": "multiple_choice",
+            "options": [
+                "water",
+                "apple",
+                "cat"
+            ],
+            "question": "Find the liquid.",
+            "answer": "water",
+            "hint": "You drink it",
+            "voice_input": false,
+            "example_sentence": "Drink the water.",
+            "media": {}
+        },
+        {
+            "id": "b9_03",
+            "type": "multiple_choice",
+            "options": [
+                "hospital",
+                "nurse",
+                "pen"
+            ],
+            "question": "Find the place.",
+            "answer": "hospital",
+            "hint": "Building",
+            "voice_input": false,
+            "example_sentence": "Go to the hospital.",
+            "media": {}
+        },
+        {
+            "id": "b9_04",
+            "type": "multiple_choice",
+            "options": [
+                "dress",
+                "phone",
+                "nose"
+            ],
+            "question": "Find the clothing.",
+            "answer": "dress",
+            "hint": "You wear it",
+            "voice_input": false,
+            "example_sentence": "She wears a dress.",
+            "media": {}
+        },
+        {
+            "id": "b9_05",
+            "type": "multiple_choice",
+            "options": [
+                "cow",
+                "farm",
+                "car"
+            ],
+            "question": "Find the animal.",
+            "answer": "cow",
+            "hint": "Says moo",
+            "voice_input": false,
+            "example_sentence": "The cow eats grass.",
+            "media": {}
+        },
+        {
+            "id": "b9_06",
+            "type": "multiple_choice",
+            "options": [
+                "rice",
+                "spoon",
+                "face"
+            ],
+            "question": "Find the food.",
+            "answer": "rice",
+            "hint": "You eat it",
+            "voice_input": false,
+            "example_sentence": "Eat the rice.",
+            "media": {}
+        },
+        {
+            "id": "b9_07",
+            "type": "sentence_ordering",
+            "words": [
+                "sun",
+                "boy",
+                "The",
+                "the",
+                "wakes"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The sun wakes the boy",
+            "hint": "SVO",
+            "voice_input": false,
+            "example_sentence": "The sun wakes the boy.",
+            "media": {}
+        },
+        {
+            "id": "b9_08",
+            "type": "sentence_ordering",
+            "words": [
+                "teacher",
+                "banana",
+                "eats",
+                "The",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The teacher eats the banana",
+            "hint": "Person + Action + Food",
+            "voice_input": false,
+            "example_sentence": "The teacher eats the banana.",
+            "media": {}
+        },
+        {
+            "id": "b9_09",
+            "type": "sentence_ordering",
+            "words": [
+                "woman",
+                "car",
+                "The",
+                "drives",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The woman drives the car",
+            "hint": "SVO",
+            "voice_input": false,
+            "example_sentence": "The woman drives the car.",
+            "media": {}
+        },
+        {
+            "id": "b9_10",
+            "type": "sentence_ordering",
+            "words": [
+                "bird",
+                "tree",
+                "The",
+                "sits",
+                "the",
+                "in"
+            ],
+            "question": "Order the sentence.",
+            "answer": "The bird sits in the tree",
+            "hint": "Subject + Verb + Location",
+            "voice_input": false,
+            "example_sentence": "The bird sits in the tree.",
+            "media": {}
+        },
+        {
+            "id": "b9_11",
+            "type": "matching",
+            "words": [
+                "shoes",
+                "feet",
+                "hat",
+                "head"
+            ],
+            "question": "Match clothing to body part.",
+            "pairs": [
+                {
+                    "left": "shoes",
+                    "right": "feet"
+                },
+                {
+                    "left": "hat",
+                    "right": "head"
+                }
+            ],
+            "answer": [
+                [
+                    "shoes",
+                    "feet"
+                ],
+                [
+                    "hat",
+                    "head"
+                ]
+            ],
+            "hint": "Wear on body",
+            "voice_input": false,
+            "example_sentence": "Shoes on feet. Hat on head.",
+            "media": {}
+        },
+        {
+            "id": "b9_12",
+            "type": "matching",
+            "words": [
+                "cup",
+                "tea",
+                "plate",
+                "cake"
+            ],
+            "question": "Match object to food/drink.",
+            "pairs": [
+                {
+                    "left": "cup",
+                    "right": "tea"
+                },
+                {
+                    "left": "plate",
+                    "right": "cake"
+                }
+            ],
+            "answer": [
+                [
+                    "cup",
+                    "tea"
+                ],
+                [
+                    "plate",
+                    "cake"
+                ]
+            ],
+            "hint": "Kitchen items",
+            "voice_input": false,
+            "example_sentence": "Tea in cup. Cake on plate.",
+            "media": {}
+        },
+        {
+            "id": "b9_13",
+            "type": "matching",
+            "words": [
+                "open",
+                "close",
+                "sleep",
+                "wake"
+            ],
+            "question": "Match opposites.",
+            "pairs": [
+                {
+                    "left": "open",
+                    "right": "close"
+                },
+                {
+                    "left": "sleep",
+                    "right": "wake"
+                }
+            ],
+            "answer": [
+                [
+                    "open",
+                    "close"
+                ],
+                [
+                    "sleep",
+                    "wake"
+                ]
+            ],
+            "hint": "Actions",
+            "voice_input": false,
+            "example_sentence": "Open and close. Sleep and wake.",
+            "media": {}
+        },
+        {
+            "id": "b9_14",
+            "type": "matching",
+            "words": [
+                "bird",
+                "sky",
+                "fish",
+                "river"
+            ],
+            "question": "Match animal to place.",
+            "pairs": [
+                {
+                    "left": "bird",
+                    "right": "sky"
+                },
+                {
+                    "left": "fish",
+                    "right": "river"
+                }
+            ],
+            "answer": [
+                [
+                    "bird",
+                    "sky"
+                ],
+                [
+                    "fish",
+                    "river"
+                ]
+            ],
+            "hint": "Where they live",
+            "voice_input": false,
+            "example_sentence": "Bird in sky. Fish in river.",
+            "media": {}
+        },
+        {
+            "id": "b9_15",
+            "type": "tap_fill",
+            "options": [
+                "eats",
+                "wears",
+                "reads",
+                "drives"
+            ],
+            "question": "The girl ___ the apple.",
+            "answer": "eats",
+            "hint": "Action with food",
+            "voice_input": false,
+            "example_sentence": "The girl eats the apple.",
+            "media": {}
+        },
+        {
+            "id": "b9_16",
+            "type": "tap_fill",
+            "options": [
+                "drives",
+                "eats",
+                "sleeps",
+                "wears"
+            ],
+            "question": "The man ___ the car.",
+            "answer": "drives",
+            "hint": "Control a vehicle",
+            "voice_input": false,
+            "example_sentence": "The man drives the car.",
+            "media": {}
+        },
+        {
+            "id": "b9_17",
+            "type": "tap_fill",
+            "options": [
+                "sleeps",
+                "drives",
+                "reads",
+                "flies"
+            ],
+            "question": "The baby ___.",
+            "answer": "sleeps",
+            "hint": "Resting",
+            "voice_input": false,
+            "example_sentence": "The baby sleeps.",
+            "media": {}
+        },
+        {
+            "id": "b9_18",
+            "type": "tap_fill",
+            "options": [
+                "play",
+                "sleep",
+                "eat",
+                "fly"
+            ],
+            "question": "We ___ a game.",
+            "answer": "play",
+            "hint": "Have fun",
+            "voice_input": false,
+            "example_sentence": "We play a game.",
+            "media": {}
+        },
+        {
+            "id": "b9_19",
+            "type": "pronunciation",
+            "words": [
+                "chicken"
+            ],
+            "question": "Say 'chicken'.",
+            "answer": "chicken",
+            "hint": "Bird",
+            "voice_input": true,
+            "example_sentence": "The chicken eats.",
+            "media": {}
+        },
+        {
+            "id": "b9_20",
+            "type": "pronunciation",
+            "words": [
+                "mountain"
+            ],
+            "question": "Say 'mountain'.",
+            "answer": "mountain",
+            "hint": "High place",
+            "voice_input": true,
+            "example_sentence": "Climb the mountain.",
             "media": {}
         }
     ]
