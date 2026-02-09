@@ -35,6 +35,35 @@
                   "isFree": false
                 }
               ]
+            },
+            {
+              "title": "GRAMMAR",
+              "stages": [
+                {
+                  "id": 1,
+                  "name": "Level 1",
+                  "cid": "EA1GS1.json",
+                  "isFree": true
+                },
+                {
+                  "id": 2,
+                  "name": "Level 2",
+                  "cid": "EA1GS2.json",
+                  "isFree": true
+                },
+                {
+                  "id": 3,
+                  "name": "Level 3",
+                  "cid": "EA1GS3.json",
+                  "isFree": false
+                },
+                {
+                  "id": 4,
+                  "name": "Level 4",
+                  "cid": "EA1GS4.json",
+                  "isFree": false
+                }
+              ]
             }
           ]
         },
