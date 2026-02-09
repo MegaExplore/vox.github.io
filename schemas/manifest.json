@@ -55,7 +55,7 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EA1GS3.json",
-                  "isFree": true
+                  "isFree": false
                 },
                 {
                   "id": 4,
@@ -84,7 +84,7 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EA1RS3.json",
-                  "isFree": true
+                  "isFree": false
                 },
                 {
                   "id": 4,
@@ -113,7 +113,7 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EA1LS3.json",
-                  "isFree": true
+                  "isFree": false
                 },
                 {
                   "id": 4,
@@ -142,7 +142,7 @@
                   "id": 3,
                   "name": "Level 3",
                   "cid": "EA1SS3.json",
-                  "isFree": true
+                  "isFree": false
                 },
                 {
                   "id": 4,
