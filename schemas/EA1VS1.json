@@ -1,368 +1,368 @@
 {
     "exercises": [
         {
-            "id": "b1_01",
+            "id": "b2_01",
             "type": "multiple_choice",
             "options": [
-                "apple",
-                "chair",
-                "bed"
+                "cat",
+                "tree",
+                "sun"
             ],
-            "question": "Select the food.",
-            "answer": "apple",
-            "hint": "You eat this",
+            "question": "Select the animal.",
+            "answer": "cat",
+            "hint": "It has four legs",
             "voice_input": false,
-            "example_sentence": "I eat an apple.",
+            "example_sentence": "The cat runs.",
             "media": {}
         },
         {
-            "id": "b1_02",
+            "id": "b2_02",
             "type": "tap_fill",
             "options": [
-                "eat",
-                "run",
-                "sleep",
-                "sit"
+                "runs",
+                "writes",
+                "reads",
+                "drives"
             ],
-            "question": "I ___ the banana.",
-            "answer": "eat",
-            "hint": "Consume food",
+            "question": "The dog ___.",
+            "answer": "runs",
+            "hint": "Fast movement",
             "voice_input": false,
-            "example_sentence": "I eat the banana.",
+            "example_sentence": "The dog runs.",
             "media": {}
         },
         {
-            "id": "b1_03",
+            "id": "b2_03",
             "type": "sentence_ordering",
             "words": [
-                "bread",
-                "eat",
-                "I"
+                "fish",
+                "swims",
+                "The"
             ],
             "question": "Order the sentence.",
-            "answer": "I eat bread",
-            "hint": "Subject + Verb + Object",
+            "answer": "The fish swims",
+            "hint": "Subject + Verb",
             "voice_input": false,
-            "example_sentence": "I eat bread.",
+            "example_sentence": "The fish swims.",
             "media": {}
         },
         {
-            "id": "b1_04",
+            "id": "b2_04",
             "type": "matching",
             "words": [
-                "apple",
-                "eat",
-                "water",
-                "drink"
+                "bird",
+                "fly",
+                "fish",
+                "swim"
             ],
-            "question": "Match action to object.",
+            "question": "Match animal to action.",
             "pairs": [
                 {
-                    "left": "apple",
-                    "right": "eat"
+                    "left": "bird",
+                    "right": "fly"
                 },
                 {
-                    "left": "water",
-                    "right": "drink"
+                    "left": "fish",
+                    "right": "swim"
                 }
             ],
             "answer": [
                 [
-                    "apple",
-                    "eat"
+                    "bird",
+                    "fly"
                 ],
                 [
-                    "water",
-                    "drink"
+                    "fish",
+                    "swim"
                 ]
             ],
-            "hint": "Food vs Liquid",
+            "hint": "Air vs Water",
             "voice_input": false,
-            "example_sentence": "I eat apple. I drink water.",
+            "example_sentence": "Birds fly. Fish swim.",
             "media": {}
         },
         {
-            "id": "b1_05",
+            "id": "b2_05",
             "type": "pronunciation",
             "words": [
-                "water"
+                "school"
             ],
-            "question": "Say 'water'.",
-            "answer": "water",
-            "hint": "Clear liquid",
+            "question": "Say 'school'.",
+            "answer": "school",
+            "hint": "Place for learning",
             "voice_input": true,
-            "example_sentence": "I drink water.",
+            "example_sentence": "Go to school.",
             "media": {}
         },
         {
-            "id": "b1_06",
+            "id": "b2_06",
             "type": "multiple_choice",
             "options": [
-                "milk",
-                "bread",
-                "window"
+                "pen",
+                "book",
+                "car"
             ],
-            "question": "Select the drink.",
-            "answer": "milk",
-            "hint": "White liquid",
+            "question": "Select the vehicle.",
+            "answer": "car",
+            "hint": "You drive this",
             "voice_input": false,
-            "example_sentence": "You drink milk.",
+            "example_sentence": "The car goes.",
             "media": {}
         },
         {
-            "id": "b1_07",
+            "id": "b2_07",
             "type": "tap_fill",
             "options": [
-                "drink",
-                "walk",
-                "sit",
-                "sleep"
+                "Read",
+                "Eat",
+                "Drink",
+                "Swim"
             ],
-            "question": "You ___ milk.",
-            "answer": "drink",
-            "hint": "Consume liquid",
+            "question": "___ the book.",
+            "answer": "Read",
+            "hint": "Look at words",
             "voice_input": false,
-            "example_sentence": "You drink milk.",
+            "example_sentence": "Read the book.",
             "media": {}
         },
         {
-            "id": "b1_08",
+            "id": "b2_08",
             "type": "sentence_ordering",
             "words": [
-                "drinks",
-                "boy",
+                "sun",
+                "shines",
                 "The"
             ],
             "question": "Order the sentence.",
-            "answer": "The boy drinks",
+            "answer": "The sun shines",
             "hint": "Subject + Verb",
             "voice_input": false,
-            "example_sentence": "The boy drinks.",
+            "example_sentence": "The sun shines.",
             "media": {}
         },
         {
-            "id": "b1_09",
+            "id": "b2_09",
             "type": "matching",
             "words": [
-                "chair",
-                "sit",
-                "bed",
-                "sleep"
+                "pen",
+                "write",
+                "book",
+                "read"
             ],
             "question": "Match object to action.",
             "pairs": [
                 {
-                    "left": "chair",
-                    "right": "sit"
+                    "left": "pen",
+                    "right": "write"
                 },
                 {
-                    "left": "bed",
-                    "right": "sleep"
+                    "left": "book",
+                    "right": "read"
                 }
             ],
             "answer": [
                 [
-                    "chair",
-                    "sit"
+                    "pen",
+                    "write"
                 ],
                 [
-                    "bed",
-                    "sleep"
+                    "book",
+                    "read"
                 ]
             ],
-            "hint": "Furniture uses",
+            "hint": "Tools for learning",
             "voice_input": false,
-            "example_sentence": "Sit on chair. Sleep in bed.",
+            "example_sentence": "Write with pen. Read book.",
             "media": {}
         },
         {
-            "id": "b1_10",
+            "id": "b2_10",
             "type": "multiple_choice",
             "options": [
-                "bed",
-                "apple",
-                "water"
+                "teacher",
+                "flower",
+                "bag"
             ],
-            "question": "You sleep in a ___.",
-            "answer": "bed",
-            "hint": "Furniture for rest",
+            "question": "Select the person.",
+            "answer": "teacher",
+            "hint": "Helps you learn",
             "voice_input": false,
-            "example_sentence": "You sleep in a bed.",
+            "example_sentence": "The teacher helps.",
             "media": {}
         },
         {
-            "id": "b1_11",
+            "id": "b2_11",
             "type": "tap_fill",
             "options": [
-                "Open",
-                "Eat",
-                "Drink",
-                "Sleep"
-            ],
-            "question": "___ the door.",
-            "answer": "Open",
-            "hint": "Not close",
-            "voice_input": false,
-            "example_sentence": "Open the door.",
-            "media": {}
-        },
-        {
-            "id": "b1_12",
-            "type": "sentence_ordering",
-            "words": [
-                "Close",
-                "window",
-                "the"
-            ],
-            "question": "Order the sentence.",
-            "answer": "Close the window",
-            "hint": "Imperative",
-            "voice_input": false,
-            "example_sentence": "Close the window.",
-            "media": {}
-        },
-        {
-            "id": "b1_13",
-            "type": "matching",
-            "words": [
-                "Open",
-                "window",
-                "help",
-                "boy"
-            ],
-            "question": "Match action to context.",
-            "pairs": [
-                {
-                    "left": "Open",
-                    "right": "window"
-                },
-                {
-                    "left": "help",
-                    "right": "boy"
-                }
-            ],
-            "answer": [
-                [
-                    "Open",
-                    "window"
-                ],
-                [
-                    "help",
-                    "boy"
-                ]
-            ],
-            "hint": "Actions",
-            "voice_input": false,
-            "example_sentence": "Open window. Help boy.",
-            "media": {}
-        },
-        {
-            "id": "b1_14",
-            "type": "multiple_choice",
-            "options": [
-                "helps",
+                "stops",
                 "eats",
-                "opens"
+                "sleeps",
+                "reads"
             ],
-            "question": "The girl ___ the boy.",
-            "answer": "helps",
-            "hint": "Assists",
+            "question": "The car ___.",
+            "answer": "stops",
+            "hint": "Not go",
             "voice_input": false,
-            "example_sentence": "The girl helps the boy.",
+            "example_sentence": "The car stops.",
             "media": {}
         },
         {
-            "id": "b1_15",
-            "type": "tap_fill",
-            "options": [
-                "runs",
-                "opens",
-                "closes",
-                "helps"
-            ],
-            "question": "The man ___.",
-            "answer": "runs",
-            "hint": "Move fast",
-            "voice_input": false,
-            "example_sentence": "The man runs.",
-            "media": {}
-        },
-        {
-            "id": "b1_16",
+            "id": "b2_12",
             "type": "sentence_ordering",
             "words": [
-                "woman",
-                "walks",
+                "bus",
+                "goes",
                 "The"
             ],
             "question": "Order the sentence.",
-            "answer": "The woman walks",
+            "answer": "The bus goes",
             "hint": "Subject + Verb",
             "voice_input": false,
-            "example_sentence": "The woman walks.",
+            "example_sentence": "The bus goes.",
             "media": {}
         },
         {
-            "id": "b1_17",
-            "type": "pronunciation",
-            "words": [
-                "help"
-            ],
-            "question": "Say 'help'.",
-            "answer": "help",
-            "hint": "Assist",
-            "voice_input": true,
-            "example_sentence": "I help you.",
-            "media": {}
-        },
-        {
-            "id": "b1_18",
+            "id": "b2_13",
             "type": "matching",
             "words": [
-                "girl",
-                "boy",
-                "man",
-                "woman"
+                "sun",
+                "moon",
+                "car",
+                "bus"
             ],
-            "question": "Match similar people.",
+            "question": "Match by category.",
             "pairs": [
                 {
-                    "left": "girl",
-                    "right": "boy"
+                    "left": "sun",
+                    "right": "moon"
                 },
                 {
-                    "left": "man",
-                    "right": "woman"
+                    "left": "car",
+                    "right": "bus"
                 }
             ],
             "answer": [
                 [
-                    "girl",
-                    "boy"
+                    "sun",
+                    "moon"
                 ],
                 [
-                    "man",
-                    "woman"
+                    "car",
+                    "bus"
                 ]
             ],
-            "hint": "Children and Adults",
+            "hint": "Sky and Transport",
             "voice_input": false,
-            "example_sentence": "Girl and boy play.",
+            "example_sentence": "Sun and moon in sky.",
             "media": {}
         },
         {
-            "id": "b1_19",
+            "id": "b2_14",
             "type": "multiple_choice",
             "options": [
-                "eat",
-                "drink",
-                "run"
+                "sun",
+                "tree",
+                "moon"
             ],
-            "question": "I ___ bread.",
-            "answer": "eat",
-            "hint": "Consuming food",
+            "question": "Select the plant.",
+            "answer": "tree",
+            "hint": "Has leaves",
             "voice_input": false,
-            "example_sentence": "I eat bread.",
+            "example_sentence": "The tree grows.",
+            "media": {}
+        },
+        {
+            "id": "b2_15",
+            "type": "tap_fill",
+            "options": [
+                "tree",
+                "book",
+                "apple",
+                "pen"
+            ],
+            "question": "The bird is in the ___.",
+            "answer": "tree",
+            "hint": "Place for nest",
+            "voice_input": false,
+            "example_sentence": "The bird is in the tree.",
+            "media": {}
+        },
+        {
+            "id": "b2_16",
+            "type": "sentence_ordering",
+            "words": [
+                "flower",
+                "See",
+                "the"
+            ],
+            "question": "Order the sentence.",
+            "answer": "See the flower",
+            "hint": "Imperative",
+            "voice_input": false,
+            "example_sentence": "See the flower.",
+            "media": {}
+        },
+        {
+            "id": "b2_17",
+            "type": "pronunciation",
+            "words": [
+                "write"
+            ],
+            "question": "Say 'write'.",
+            "answer": "write",
+            "hint": "Use a pen",
+            "voice_input": true,
+            "example_sentence": "I write.",
+            "media": {}
+        },
+        {
+            "id": "b2_18",
+            "type": "matching",
+            "words": [
+                "teacher",
+                "school",
+                "bird",
+                "tree"
+            ],
+            "question": "Match person to place.",
+            "pairs": [
+                {
+                    "left": "teacher",
+                    "right": "school"
+                },
+                {
+                    "left": "bird",
+                    "right": "tree"
+                }
+            ],
+            "answer": [
+                [
+                    "teacher",
+                    "school"
+                ],
+                [
+                    "bird",
+                    "tree"
+                ]
+            ],
+            "hint": "Who goes where",
+            "voice_input": false,
+            "example_sentence": "Teacher at school.",
+            "media": {}
+        },
+        {
+            "id": "b2_19",
+            "type": "multiple_choice",
+            "options": [
+                "stop",
+                "run",
+                "fly"
+            ],
+            "question": "Select the stop action.",
+            "answer": "stop",
+            "hint": "Not go",
+            "voice_input": false,
+            "example_sentence": "Stop the car.",
             "media": {}
         }
     ]
